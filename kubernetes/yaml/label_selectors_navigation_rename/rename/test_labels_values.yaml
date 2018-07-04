@@ -1,0 +1,25 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: calico-typha
+  namespace: kube-system
+  labels:
+    test.kubernetes.io/cluster-service: "true"
+    test.addonmanager.kubernetes.io/mode: Reconcile
+    ok_test_1-2.3: calico-typha_1-2.3
+    ok_empty_label:
+    ok_null_selector: null
+    not_ok_underscores_at_the_end_: value_
+
+spec:
+  ports:
+  - port: 5473
+    protocol: TCP
+    targetPort: calico-typha
+    name: calico-typha
+  selector:
+    ok_test_1-2.3: calico-typha_1-2.3
+    ok_empty_label:
+    ok_null_selector: null
+    not_ok_underscores_at_the_end_: value_
+

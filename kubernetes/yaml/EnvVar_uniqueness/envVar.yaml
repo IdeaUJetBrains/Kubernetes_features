@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: ReplicationController
+metadata:
+  name: cassandra
+spec:
+  template:
+    metadata:
+      labels:
+        app: cassandra
+    spec:
+      containers:
+      - env:
+        - name: MAX_HEAP_SIZE
+          value: 512M
+        - name: CASSANDRA_SEED_PROVIDER
+          value: "io.k8s.cassandra.KubernetesSeedProvider"
+        - name: MAX_HEAP_SIZE
+          value: 512M
+        name: test
+      volumes:
+      - name: data
+        emptyDir: {}

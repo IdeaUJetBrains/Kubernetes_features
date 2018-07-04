@@ -1,0 +1,371 @@
+{
+  "product": "IU",
+  "user": "2dfd22bd-c3db-401b-8dde-9741a52648f0",
+  "sessions": [
+    {
+      "id": "368994585",
+      "build": "181.4203.519",
+      "groups": [
+        {
+          "id": "statistics.file.types",
+          "metrics": {
+            "JAVA": 1,
+            "PLAIN_TEXT": 1,
+            "IDEA_MODULE": 1,
+            "ARCHIVE": 1,
+            "XML": 1,
+            "Properties": 1
+          }
+        },
+        {
+          "id": "statistics.javaLibraries",
+          "metrics": {
+            "spring-boot_1.5.8.RELEASE": 1,
+            "spring-mvc_4.3.12.RELEASE": 1,
+            "spring-data-jpa_1.11.8.RELEASE": 1,
+            "spring-core_4.3.12.RELEASE": 1,
+            "spring-data-jpa_1.3.3": 1,
+            "spring-data-commons_1.13.8.RELEASE": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "1942746070",
+      "build": "181.4203.519",
+      "groups": [
+        {
+          "id": "internal.statistics.vcs.options",
+          "metrics": {
+            "commit.before.check.non.empty.comment.disabled": 1,
+            "commit.before.check.code.cleanup.disabled": 1,
+            "commit.show.unversioned.enabled": 1,
+            "perform.checkout.in.background.enabled": 1,
+            "changelist.make.new.active.disabled": 1,
+            "commit.use.right.margin.enabled": 1,
+            "offer.move.failed.committed.do_nothing_silently": 1,
+            "commit.before.optimize.imports.disabled": 1,
+            "check.conflicts.in.background.disabled": 1,
+            "commit.before.check.code.smell.enabled": 1,
+            "commit.clear.initial.comment.disabled": 1,
+            "changelist.preselect.existing.disabled": 1,
+            "perform.update.in.background.enabled": 1,
+            "offer.move.partially.committed.disabled": 1,
+            "include.text.into.shelf.enabled": 1,
+            "show.changes.preview.disabled": 1,
+            "perform.rollback.in.background.disabled": 1,
+            "commit.before.check.todo.enabled": 1,
+            "commit.before.reformat.project.disabled": 1,
+            "perform.add_remove.in.background.enabled": 1,
+            "commit.before.rearrange.disabled": 1,
+            "perform.commit.in.background.enabled": 1,
+            "offer.remove.empty.changelist.show_confirmation": 1,
+            "perform.edit.in.background.enabled": 1
+          }
+        },
+        {
+          "id": "internal.statistics.vcs.metrics",
+          "metrics": {
+            "has.default.vcs.root.mapping.enabled": 1,
+            "active.changelists.count.1": 1,
+            "unversioned.files.count.0": 1,
+            "vcs.roots.count.0": 1,
+            "ignored.files.count.0": 1
+          }
+        },
+        {
+          "id": "internal.statistics.kubernetes",
+          "metrics": {
+            "k8sVersion": 0
+          }
+        },
+        {
+          "id": "statistics.file.types",
+          "metrics": {
+            "IDEA_MODULE": 1,
+            "PLAIN_TEXT": 1,
+            "XML": 1,
+            "JSP": 1,
+            "JSON": 1,
+            "Markdown": 1,
+            "YAML": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "350304279",
+      "build": "181.4203.519",
+      "groups": [
+        {
+          "id": "statistics.file.types",
+          "metrics": {
+            "JAVA": 1,
+            "IDEA_MODULE": 1,
+            "PLAIN_TEXT": 1,
+            "Dockerfile": 1,
+            "ARCHIVE": 1,
+            "XML": 1,
+            "JSP": 1,
+            "YAML": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "655482535",
+      "build": "181.4203.519",
+      "groups": [
+        {
+          "id": "statistics.ui.fonts",
+          "metrics": {
+            "QuickDoc.font.size[X_SMALL]": 1,
+            "Presentation.mode.font.size[24]": 1,
+            "UI.font.name[Segoe.UI]": 1,
+            "IDE.editor.font.size[12]": 1,
+            "IDE.editor.font.name[Monospaced]": 1,
+            "UI.font.size[12]": 1
+          }
+        },
+        {
+          "id": "statistics.ui.hidpi.mode",
+          "metrics": {
+            "Windows.per_monitor_dpi": 1
+          }
+        },
+        {
+          "id": "statistics.ui.screen.scale",
+          "metrics": {
+            "Windows_1.25": 1
+          }
+        },
+        {
+          "id": "statistics.editor.settings.ide",
+          "metrics": {
+            "completionHints": 1,
+            "wheelZoom": 1
+          }
+        },
+        {
+          "id": "statistics.ui.shortcuts.on.windows",
+          "metrics": {
+            "Delete": 14,
+            "Left": 10,
+            "Ctrl+Alt+S": 3,
+            "Alt+Enter": 16,
+            "Ctrl+Space": 40,
+            "Backspace": 40,
+            "Right": 17,
+            "Ctrl+Slash": 1,
+            "Ctrl+Tab": 2,
+            "Ctrl+A": 1,
+            "F4": 49,
+            "Ctrl+C": 2,
+            "Ctrl+Z": 82,
+            "Enter": 34,
+            "Ctrl+V": 7,
+            "Ctrl+Q": 64,
+            "Escape": 3,
+            "Down": 7,
+            "Alt+F1": 1
+          }
+        },
+        {
+          "id": "statistics.actions.performed",
+          "metrics": {
+            "NewDir": 1,
+            "RemoteServers.EditServerConfig": 2,
+            "Docker.RemoteServers.DeleteContainer": 2,
+            "NextTemplateVariable": 4,
+            "Docker.RemoteServers.FilterStoppedContainers": 2,
+            "Docker.RemoteServers.ExecInContainer": 1,
+            "NewFile": 1,
+            "EditorChooseLookupItem": 18,
+            "$SelectAll": 1,
+            "EditorPaste": 7,
+            "Run": 12,
+            "EditorBackSpace": 40,
+            "Docker.RemoteServers.DownComposeApp": 2,
+            "Docker.RemoteServers.FilterUntaggedImages": 2,
+            "RemoteServers.EditDeploymentConfig": 2,
+            "Docker.RemoteServers.StopContainer": 3,
+            "Servers.Deploy": 2,
+            "EditorCopy": 2,
+            "CloseAllEditorsButActive": 3,
+            "EditorEscape": 3,
+            "CloseAllEditors": 1,
+            "EditSource": 44,
+            "ShowIntentionActions": 16,
+            "ShowSettings": 3,
+            "SendFUStatistics": 1,
+            "Docker.RemoteServers.StopComposeApp": 2,
+            "DialogOkAction.Enter": 2,
+            "QuickJavaDoc": 52,
+            "Jpa.AssignDataSources": 2,
+            "$Undo": 82,
+            "CommentByLineComment": 1,
+            "RemoteServers.ConnectServer": 3,
+            "GotoDeclaration": 24,
+            "EditCustomVmOptions": 1,
+            "RunClass": 1,
+            "EditorLeft": 10,
+            "RemoteServers.DisconnectServer": 6,
+            "EditorEnter": 11,
+            "SelectIn": 1,
+            "Docker.RemoteServers.ScaleComposeService": 1,
+            "RemoteServers.ChooseServerDeployment": 2,
+            "Docker.RemoteServers.StartContainer": 1,
+            "Docker.RemoteServers.CreateContainer": 4,
+            "Debugger.EditFrameSource": 7,
+            "CodeCompletion": 40,
+            "Switcher": 2,
+            "EditorDown": 7,
+            "EditorDelete": 14,
+            "EditorRight": 17
+          }
+        },
+        {
+          "id": "statistics.ui.info.features",
+          "metrics": {
+            "Recent.Files[15_30]": 0,
+            "Status.bar.visible": 1,
+            "Allow.merging.buttons.enabled": 1,
+            "Toolbar.and.NavBar.hidden": 0,
+            "Show.tips.on.startup": 1,
+            "Retina": 0,
+            "Recent.Files[15]": 0,
+            "Tabs.Bottom": 0,
+            "Toolbar.visible": 1,
+            "Recent.Files[more.than.50]": 0,
+            "Recent.Files[30_50]": 1,
+            "Line.Numbers": 1,
+            "Tool.Window.buttons.visible": 0,
+            "Block.cursor": 0,
+            "Soft.Wraps": 0,
+            "Tabs.Top": 1,
+            "Gutter.Icons": 1,
+            "Tabs.Left": 0,
+            "Toolbar.hidden": 0,
+            "Tool.Window.buttons.hidden": 1,
+            "Nav.Bar.visible": 1,
+            "Nav.Bar.floating": 0,
+            "Status.bar.hidden": 0,
+            "Tabs.Right": 0,
+            "Toolbar.and.NavBar": 0,
+            "Tabs.None": 0
+          }
+        },
+        {
+          "id": "statistics.ui.toolbar.clicks",
+          "metrics": {
+            "Run@MainToolbar": 12,
+            "RemoteServers.EditServerConfig@ServersToolWindowContent#Toolbar": 1,
+            "Servers.Deploy@ServersToolWindowContent#Toolbar": 1,
+            "com.intellij.codeInsight.documentation.DocumentationComponent$BackAction@JavadocToolbar": 4,
+            "RemoteServers.ConnectServer@ServersToolWindowContent#Toolbar": 3,
+            "Docker.RemoteServers.StopContainer@ServersToolWindowContent#Toolbar": 2,
+            "com.intellij.ui.AnActionButton$AnActionButtonWrapper@ToolbarDecorator": 3,
+            "com.intellij.ui.CommonActionsPanel$MyActionButton@ToolbarDecorator": 7,
+            "RemoteServers.EditDeploymentConfig@ServersToolWindowContent#Toolbar": 1,
+            "com.intellij.codeInsight.documentation.DocumentationComponent$ForwardAction@JavadocToolbar": 2,
+            "RemoteServers.DisconnectServer@ServersToolWindowContent#Toolbar": 6,
+            "com.intellij.ide.actions.CollapseAllToolbarAction@SingleInspectionProfile": 1,
+            "RunConfiguration@MainToolbar": 17,
+            "Docker.RemoteServers.StopComposeApp@ServersToolWindowContent#Toolbar": 1
+          }
+        },
+        {
+          "id": "statistics.ui.look.and.feel",
+          "metrics": {
+            "Windows_10.windows.IntelliJ": 1
+          }
+        },
+        {
+          "id": "statistics.productivity",
+          "metrics": {
+            "switcher": 1,
+            "navigation.goto.declaration": 24,
+            "navigation.select.in": 1,
+            "codeassists.comment.line": 1,
+            "editing.completion.basic": 43,
+            "editing.select.word": 1,
+            "codeassists.quickjavadoc": 52
+          }
+        },
+        {
+          "id": "statistics.plugins.disabled",
+          "metrics": {
+            "com.intellij.thymeleaf": 1,
+            "CloudFoundry": 1,
+            "CloudBees": 1,
+            "spy-js": 1,
+            "com.intellij.seam": 1,
+            "com.intellij.tapestry": 1,
+            "StrutsAssistant": 1,
+            "com.intellij.drools": 1,
+            "com.intellij.vaadin": 1,
+            "com.github.tinselspoon.intellij.kubernetes": 1,
+            "com.intellij.appengine": 1,
+            "org.jetbrains.android": 1,
+            "com.intellij.seam.pages": 1,
+            "com.intellij.seam.pageflow": 1,
+            "com.intellij.jboss.arquillian": 1,
+            "com.intellij.jboss.core": 1,
+            "com.intellij.gwt": 1,
+            "com.intellij.struts2": 1
+          }
+        },
+        {
+          "id": "statistics.os.name",
+          "metrics": {
+            "Windows": 1
+          }
+        },
+        {
+          "id": "statistics.plugins.non.bundled",
+          "metrics": {
+            "com.intellij.kubernetes": 1,
+            "Docker": 1
+          }
+        },
+        {
+          "id": "statistics.actions.main.menu",
+          "metrics": {
+            "Help-Edit.Custom.VM.Options...": 1,
+            "File-Open.Recent-Reopen.Project": 2,
+            "Tools-Internal.Actions-NEW_.Collect.And.Send.Statistics": 1
+          }
+        },
+        {
+          "id": "statistics.jdk.user",
+          "metrics": {
+            "JetBrains.s.r.o.1.8": 1
+          }
+        },
+        {
+          "id": "statistics.actions.intentions",
+          "metrics": {
+            "JSON.json.codeinsight.JsonStandardComplianceInspection$AddDoubleQuotesFix": 1,
+            "yaml.org.jetbrains.yaml.meta.impl.YamlDuplicatedKeysInspectionBase$RemoveDuplicatedKeyQuickFix": 1,
+            "yaml.codeInspection.actions.CleanupInspectionIntention": 1,
+            "yaml.org.jetbrains.yaml.meta.impl.YamlMissingKeysInspectionBase$AddMissingKeysQuickFix": 3,
+            "yaml.[!]kubernetes.RemoveDuplicatedEnvVarQuickFix": 1,
+            "yaml.org.jetbrains.yaml.meta.impl.YamlNonEditableKeysInspectionBase$StructureChecker$StripNonEditableKeysQuickFix": 2
+          }
+        },
+        {
+          "id": "statistics.os.version",
+          "metrics": {
+            "Windows.10.10.0": 1
+          }
+        },
+        {
+          "id": "statistics.ui.editor.color.schemes",
+          "metrics": {
+            "Default": 1
+          }
+        }
+      ]
+    }
+  ]
+}

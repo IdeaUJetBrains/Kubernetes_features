@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+status:
+  loadBalancer:
+    ingress:
+    - hostname: test
+    - ip: 0.0.0.0
+spec:
+  ports:
+  - port: 8080
+  - port: 8081
+
+
+

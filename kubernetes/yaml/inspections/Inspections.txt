@@ -1,0 +1,7 @@
+kubernetes | Deprecated Kubernetes resource properties
+kubernetes | Deprecated Kubernetes resources  (=Deprecated  "kind")
+kubernetes | Missing Kubernetes YAML keys
+kubernetes | Non-editable Kubernetes resource properties
+kubernetes | Non-editable Kubernetes resources
+kubernetes | Unknown Kubernetes YAML keys
+kubernetes | Unknown Kubernetes YAML values

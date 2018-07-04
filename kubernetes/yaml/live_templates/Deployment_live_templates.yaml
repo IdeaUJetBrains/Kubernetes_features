@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: Deployment_live_templates
+  labels:
+    app: dep_label_renamed
+spec:
+  replicas: 1
+  template:
+    metadata:
+      name: Deployment_live_templates
+      labels:
+        app: dep_label_renamed1
+    spec:
+      containers:
+      - name: dep_name
+        image: tomcat
+        imagePullPolicy: IfNotPresent
+      restartPolicy: Always
+  selector:
+    matchLabels:
+      app: dep_label_renamed1

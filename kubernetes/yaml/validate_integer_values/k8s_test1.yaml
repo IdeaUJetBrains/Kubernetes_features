@@ -1,0 +1,56 @@
+kind: DaemonSet
+apiVersion: extensions/v1beta1
+metadata:
+  name: calico-node
+  namespace: kube-system
+spec:
+  template:
+    spec:
+      activeDeadlineSeconds:   3
+      activeDeadlineSeconds: 4
+      activeDeadlineSeconds: "-2048"
+      activeDeadlineSeconds: "-2147483648"
+      activeDeadlineSeconds: "2147483647"
+      activeDeadlineSeconds: " 1"
+      activeDeadlineSeconds: "2 "
+      activeDeadlineSeconds: " 5.75"
+      activeDeadlineSeconds: " 6 1⁄2"
+      activeDeadlineSeconds: "√7"
+      activeDeadlineSeconds: "−2048"
+      activeDeadlineSeconds: "-2147483649"
+      activeDeadlineSeconds: "2147483648"
+      activeDeadlineSeconds: "1a"
+      activeDeadlineSeconds: "a1"
+      activeDeadlineSeconds: "aaa"
+      activeDeadlineSeconds: "!"
+      activeDeadlineSeconds: "@"
+      activeDeadlineSeconds: "#"
+      activeDeadlineSeconds: "$"
+      activeDeadlineSeconds: "%"
+      activeDeadlineSeconds: "^"
+      activeDeadlineSeconds: "&"
+      activeDeadlineSeconds: "*"
+      activeDeadlineSeconds: "("
+      activeDeadlineSeconds: ")"
+      activeDeadlineSeconds: "+"
+      activeDeadlineSeconds: "~"
+      activeDeadlineSeconds: "`"
+      activeDeadlineSeconds: ":"
+      activeDeadlineSeconds: ";"
+
+      activeDeadlineSeconds: "'"
+      activeDeadlineSeconds: "|"
+      activeDeadlineSeconds: "{"
+      activeDeadlineSeconds: "["
+      activeDeadlineSeconds: "}"
+      activeDeadlineSeconds: "]"
+      activeDeadlineSeconds: "?"
+      activeDeadlineSeconds: "/"
+      activeDeadlineSeconds: ">"
+      activeDeadlineSeconds: "."
+      activeDeadlineSeconds: "<"
+      activeDeadlineSeconds: ","
+      activeDeadlineSeconds: """
+
+      containers:
+      - name: test

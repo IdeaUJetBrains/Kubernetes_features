@@ -1,0 +1,304 @@
+{
+  "product": "IU",
+  "user": "2dfd22bd-c3db-401b-8dde-9741a52648f0",
+  "sessions": [
+    {
+      "id": "655482535",
+      "build": "181.4668.5",
+      "groups": [
+        {
+          "id": "statistics.os.name",
+          "metrics": {
+            "Windows": 1
+          }
+        },
+        {
+          "id": "statistics.actions.main.menu",
+          "metrics": {
+            "Tools-Internal.Actions-NEW_.Collect.And.Send.Statistics": 1
+          }
+        },
+        {
+          "id": "statistics.ui.hidpi.mode",
+          "metrics": {
+            "Windows.per_monitor_dpi": 1
+          }
+        },
+        {
+          "id": "statistics.plugins.non.bundled",
+          "metrics": {
+            "com.intellij.kubernetes": 1,
+            "Docker": 1
+          }
+        },
+        {
+          "id": "statistics.jdk.user",
+          "metrics": {
+            "JetBrains.s.r.o.1.8": 1
+          }
+        },
+        {
+          "id": "statistics.actions.performed",
+          "metrics": {
+            "ShowReformatFileDialog": 1,
+            "$SelectAll": 2,
+            "EditorPaste": 2,
+            "EditorBackSpace": 6,
+            "EditorCopy": 15,
+            "ShowSettings": 1,
+            "SendFUStatistics": 1,
+            "Find": 1
+          }
+        },
+        {
+          "id": "statistics.ui.info.features",
+          "metrics": {
+            "Recent.Files[15_30]": 0,
+            "Allow.merging.buttons.enabled": 1,
+            "Toolbar.and.NavBar.hidden": 0,
+            "Status.bar.visible": 1,
+            "Retina": 0,
+            "Show.tips.on.startup": 1,
+            "Recent.Files[15]": 0,
+            "Tabs.Bottom": 0,
+            "Toolbar.visible": 1,
+            "Recent.Files[30_50]": 1,
+            "Recent.Files[more.than.50]": 0,
+            "Line.Numbers": 1,
+            "Block.cursor": 0,
+            "Tool.Window.buttons.visible": 0,
+            "Tabs.Top": 1,
+            "Soft.Wraps": 0,
+            "Gutter.Icons": 1,
+            "Tabs.Left": 0,
+            "Toolbar.hidden": 0,
+            "Tool.Window.buttons.hidden": 1,
+            "Nav.Bar.visible": 1,
+            "Nav.Bar.floating": 0,
+            "Status.bar.hidden": 0,
+            "Tabs.Right": 0,
+            "Toolbar.and.NavBar": 0,
+            "Tabs.None": 0
+          }
+        },
+        {
+          "id": "statistics.ui.accessibility.screen.reader",
+          "metrics": {
+            "Windows.screen.reader.DISABLED": 1
+          }
+        },
+        {
+          "id": "statistics.ui.editor.color.schemes",
+          "metrics": {
+            "Default": 1
+          }
+        },
+        {
+          "id": "statistics.ui.screen.scale",
+          "metrics": {
+            "Windows_1.25": 1
+          }
+        },
+        {
+          "id": "statistics.os.version",
+          "metrics": {
+            "Windows.10.10.0": 1
+          }
+        },
+        {
+          "id": "statistics.ui.shortcuts.on.windows",
+          "metrics": {
+            "Ctrl+Alt+Shift+L": 1,
+            "Ctrl+Alt+S": 1,
+            "Backspace": 6,
+            "Ctrl+F": 1,
+            "Ctrl+A": 2,
+            "Ctrl+C": 15,
+            "Enter": 35,
+            "Ctrl+V": 2
+          }
+        },
+        {
+          "id": "statistics.editor.settings.ide",
+          "metrics": {
+            "completionHints": 1,
+            "wheelZoom": 1
+          }
+        },
+        {
+          "id": "statistics.ui.fonts",
+          "metrics": {
+            "QuickDoc.font.size[X_SMALL]": 1,
+            "Presentation.mode.font.size[24]": 1,
+            "UI.font.name[Segoe.UI]": 1,
+            "IDE.editor.font.size[12]": 1,
+            "IDE.editor.font.name[Monospaced]": 1,
+            "UI.font.size[12]": 1
+          }
+        },
+        {
+          "id": "statistics.plugins.disabled",
+          "metrics": {
+            "com.intellij.thymeleaf": 1,
+            "CloudFoundry": 1,
+            "CloudBees": 1,
+            "spy-js": 1,
+            "com.intellij.seam": 1,
+            "com.intellij.tapestry": 1,
+            "StrutsAssistant": 1,
+            "com.intellij.drools": 1,
+            "com.intellij.vaadin": 1,
+            "com.github.tinselspoon.intellij.kubernetes": 1,
+            "com.intellij.appengine": 1,
+            "org.jetbrains.android": 1,
+            "com.intellij.seam.pages": 1,
+            "com.intellij.seam.pageflow": 1,
+            "com.intellij.jboss.arquillian": 1,
+            "com.intellij.jboss.core": 1,
+            "com.intellij.gwt": 1,
+            "com.intellij.struts2": 1
+          }
+        },
+        {
+          "id": "statistics.ui.look.and.feel",
+          "metrics": {
+            "Windows_10.windows.IntelliJ": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "350304279",
+      "build": "181.4668.5",
+      "groups": [
+        {
+          "id": "internal.statistics.vcs.names",
+          "metrics": {
+            "Git": 1
+          }
+        },
+        {
+          "id": "statistics.file.types",
+          "metrics": {
+            "JAVA": 1,
+            "PLAIN_TEXT": 1,
+            "Dockerfile": 1,
+            "IDEA_MODULE": 1,
+            "ARCHIVE": 1,
+            "XML": 1,
+            "JSP": 1,
+            "YAML": 1
+          }
+        },
+        {
+          "id": "internal.statistics.kubernetes.settings",
+          "metrics": {
+            "k8sVersion": 0
+          }
+        },
+        {
+          "id": "internal.statistics.vcs.metrics",
+          "metrics": {
+            "active.changelists.count.1": 1,
+            "has.default.vcs.root.mapping.disabled": 1,
+            "ignored.files.count.2": 1,
+            "vcs.roots.count.1": 1,
+            "unversioned.files.count.3+": 1
+          }
+        },
+        {
+          "id": "internal.statistics.vcs.options",
+          "metrics": {
+            "commit.before.check.code.cleanup.disabled": 1,
+            "commit.before.check.non.empty.comment.disabled": 1,
+            "commit.show.unversioned.enabled": 1,
+            "changelist.make.new.active.disabled": 1,
+            "perform.checkout.in.background.enabled": 1,
+            "offer.move.failed.committed.do_nothing_silently": 1,
+            "commit.before.optimize.imports.disabled": 1,
+            "commit.use.right.margin.enabled": 1,
+            "check.conflicts.in.background.disabled": 1,
+            "commit.before.check.code.smell.enabled": 1,
+            "changelist.preselect.existing.disabled": 1,
+            "commit.clear.initial.comment.disabled": 1,
+            "perform.update.in.background.enabled": 1,
+            "include.text.into.shelf.enabled": 1,
+            "offer.move.partially.committed.disabled": 1,
+            "perform.rollback.in.background.disabled": 1,
+            "show.changes.preview.disabled": 1,
+            "commit.before.check.todo.enabled": 1,
+            "commit.before.reformat.project.disabled": 1,
+            "perform.add_remove.in.background.enabled": 1,
+            "commit.before.rearrange.disabled": 1,
+            "perform.commit.in.background.enabled": 1,
+            "offer.remove.empty.changelist.show_confirmation": 1,
+            "perform.edit.in.background.enabled": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "1942746070",
+      "build": "181.4668.5",
+      "groups": [
+        {
+          "id": "statistics.file.types",
+          "metrics": {
+            "PLAIN_TEXT": 1,
+            "IDEA_MODULE": 1,
+            "XML": 1,
+            "JSP": 1,
+            "JSON": 1,
+            "Markdown": 1,
+            "YAML": 1
+          }
+        },
+        {
+          "id": "internal.statistics.kubernetes.settings",
+          "metrics": {
+            "k8sVersion": 110
+          }
+        },
+        {
+          "id": "internal.statistics.vcs.metrics",
+          "metrics": {
+            "has.default.vcs.root.mapping.enabled": 1,
+            "active.changelists.count.1": 1,
+            "unversioned.files.count.0": 1,
+            "vcs.roots.count.0": 1,
+            "ignored.files.count.0": 1
+          }
+        },
+        {
+          "id": "internal.statistics.vcs.options",
+          "metrics": {
+            "commit.before.check.code.cleanup.disabled": 1,
+            "commit.before.check.non.empty.comment.disabled": 1,
+            "commit.show.unversioned.enabled": 1,
+            "changelist.make.new.active.disabled": 1,
+            "perform.checkout.in.background.enabled": 1,
+            "offer.move.failed.committed.do_nothing_silently": 1,
+            "commit.before.optimize.imports.disabled": 1,
+            "commit.use.right.margin.enabled": 1,
+            "check.conflicts.in.background.disabled": 1,
+            "commit.before.check.code.smell.enabled": 1,
+            "commit.clear.initial.comment.disabled": 1,
+            "changelist.preselect.existing.disabled": 1,
+            "perform.update.in.background.enabled": 1,
+            "include.text.into.shelf.enabled": 1,
+            "offer.move.partially.committed.disabled": 1,
+            "show.changes.preview.disabled": 1,
+            "perform.rollback.in.background.disabled": 1,
+            "commit.before.check.todo.enabled": 1,
+            "commit.before.reformat.project.disabled": 1,
+            "perform.add_remove.in.background.enabled": 1,
+            "commit.before.rearrange.disabled": 1,
+            "perform.commit.in.background.enabled": 1,
+            "perform.edit.in.background.enabled": 1,
+            "offer.remove.empty.changelist.show_confirmation": 1
+          }
+        }
+      ]
+    }
+  ]
+}

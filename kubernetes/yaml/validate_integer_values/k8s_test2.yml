@@ -1,0 +1,11 @@
+kind: DaemonSet
+apiVersion: extensions/v1beta1
+metadata:
+  name: calico-node
+  namespace: kube-system
+spec:
+  template:
+    spec:
+      activeDeadlineSeconds: ""
+      containers:
+      - name: test

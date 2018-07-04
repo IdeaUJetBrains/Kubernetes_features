@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: Service
+status:
+  loadBalancer:
+    ingress:
+    - hostname: test
+    - ip: 0.0.0.0
+spec:
+
+  externalName: вв
+  selector:
+    name: etcd
+
+  ports:
+  - port:
+
+
+
+
+

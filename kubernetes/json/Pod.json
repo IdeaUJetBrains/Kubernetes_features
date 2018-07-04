@@ -1,0 +1,43 @@
+{
+  "apiVersion": "v1",
+  "kind": "Pod",
+
+  "metadata": {
+    "name": "rbd2"
+  },
+  "spec": {
+    "containers": [
+      {
+        "name": "rbd-rw",
+        "image": "kubernetes/pause",
+        "volumeMounts": [
+          {
+            "mountPath": "/mnt/rbd",
+            "name": "rbdpd"
+          }
+        ]
+      }
+    ],
+    "nodeSelector": {
+      "test_comp": "testing_c"
+    },
+    "volumes": [
+      {
+        "name": "rbdpd",
+        "rbd": {
+          "monitors": [
+            "10.16.154.78:6789"
+          ],
+          "pool": "kube",
+          "image": "foo",
+          "user": "admin",
+          "secretRef": {
+            "name": "ceph-secret"
+          },
+          "fsType": "ext4",
+          "readOnly": true
+        }
+      }
+    ]
+  }
+}
