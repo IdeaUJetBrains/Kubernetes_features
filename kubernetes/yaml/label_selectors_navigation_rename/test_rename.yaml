@@ -1,0 +1,11 @@
+{% set base_metrics_memory = "140Mi" -%}
+{% set base_metrics_cpu = "80m" -%}
+
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: heapster
+  namespace: kube-system
+  labels:
+    k8s-app: "true"
+    addonmanager.kubernetes.io/mode: Reconcile
