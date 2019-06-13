@@ -1,0 +1,1 @@
+https://raw.githubusercontent.com/al3xandru/k8s-crd/master/crd.yaml
