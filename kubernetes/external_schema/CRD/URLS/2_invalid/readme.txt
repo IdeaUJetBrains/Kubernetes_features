@@ -1,8 +1,13 @@
 ok:
-https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/a82c6fec1c73531cbbc33a8cc695340bd71deeaa/kubernetes/external_schema/CRD/URLS/2_invalid/crd-schema_ok.yaml
+https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/1f204faebd4ab1def5d20fe4fd6b96c5ee5ecc6f/kubernetes/external_schema/CRD/URLS/2_invalid/crd-schema_ok.yaml
+
 https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/URLS/1_ok/crd-schema_from_url.yaml
+https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/92e63f76a34f8d8e3ccd671d1658c7589ea51e56/kubernetes/external_schema/CRD/URLS/1_ok/crd-schema_from_url.yaml
 
 invalid:
+no errrors - version:v1 is absent in this revision:
+https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/a82c6fec1c73531cbbc33a8cc695340bd71deeaa/kubernetes/external_schema/CRD/URLS/2_invalid/crd-schema_ok.yaml
+
 https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/URLS/2_invalid/AUTHTOREntity.kt
 https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/a82c6fec1c73531cbbc33a8cc695340bd71deeaa/kubernetes/external_schema/CRD/URLS/2_invalid/AUTHTOREntity.kt
 https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/URLS/2_invalid/Authtor.java
