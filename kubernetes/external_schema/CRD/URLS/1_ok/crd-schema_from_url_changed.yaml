@@ -1,14 +1,14 @@
 # example from K8s docs
 apiVersion: apiextensions.k8s.io/v1beta1
 kind: CustomResourceDefinition
-metadata:fff
+metadata:
   # name must match the spec fields below, and be in the form: <plural>.<group>
   name: crontabs.stable.example.com
 spec:
   # group name to use for REST API: /apis/<group>/<version>
-  group: stable.example.com1
+  group: stable.example.com_changed
   # version name to use for REST API: /apis/<group>/<version>
-  version: v1
+  version: v1_changed
   # either Namespaced or Cluster
   scope: Namespaced
   names:
