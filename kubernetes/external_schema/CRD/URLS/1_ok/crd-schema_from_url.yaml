@@ -8,7 +8,7 @@ spec:
   # group name to use for REST API: /apis/<group>/<version>
   group: stable.example.com
   # version name to use for REST API: /apis/<group>/<version>
-  version: v1
+  version: v11
   # either Namespaced or Cluster
   scope: Namespaced
   names:
