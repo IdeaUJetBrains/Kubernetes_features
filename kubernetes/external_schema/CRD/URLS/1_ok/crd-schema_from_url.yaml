@@ -3,21 +3,21 @@ apiVersion: apiextensions.k8s.io/v1beta1
 kind: CustomResourceDefinition
 metadata:
   # name must match the spec fields below, and be in the form: <plural>.<group>
-  name: crontabs.stable.example.com
+  name: crontabs.stable.example.com_ch
 spec:
   # group name to use for REST API: /apis/<group>/<version>
-  group: stable.example.com
+  group: stable.example.com_ch
   # version name to use for REST API: /apis/<group>/<version>
   version: v1
   # either Namespaced or Cluster
   scope: Namespaced
   names:
     # plural name to be used in the URL: /apis/<group>/<version>/<plural>
-    plural: crontabs
+    plural: crontabs_ch
     # singular name to be used as an alias on the CLI and for display
-    singular: crontab
+    singular: crontab_ch
     # kind is normally the CamelCased singular type. Your resource manifests use this.
-    kind: CronTab
+    kind: CronTab_ch
     # shortNames allow shorter string to match your resource on the CLI
     shortNames:
     - ct
