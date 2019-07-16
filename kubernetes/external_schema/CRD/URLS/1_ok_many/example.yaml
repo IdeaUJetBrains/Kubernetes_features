@@ -1,154 +1,152 @@
 apiVersion: stable.example.com1/v1
-kind: CronTab1
+kind: CronTab
 ---
 apiVersion: stable.example.com2/v1
-kind: CronTab2
+kind: CronTab
 ---
 apiVersion: stable.example.com3/v1
-kind: CronTab3
+kind: CronTab
 ---
 apiVersion: stable.example.com4/v1
-kind: CronTab4
+kind: CronTab
 ---
 apiVersion: stable.example.com5/v1
-kind: CronTab5
+kind: CronTab
 ---
 apiVersion: stable.example.com6/v1
-kind: CronTab6
+kind: CronTab
 ---
 apiVersion: stable.example.com7/v1
-kind: CronTab7
+kind: CronTab
 ---
 apiVersion: stable.example.com8/v1
-kind: CronTab8
+kind: CronTab
 ---
 apiVersion: stable.example.com9/v1
-kind: CronTab9
+kind: CronTab
 ---
 apiVersion: stable.example.com10/v1
-kind: CronTab10
+kind: CronTab
 ---
 apiVersion: stable.example.com11/v1
-kind: CronTab11
+kind: CronTab
 ---
 apiVersion: stable.example.com12/v1
-kind: CronTab12
+kind: CronTab
 ---
 apiVersion: stable.example.com13/v1
-kind: CronTab13
+kind: CronTab
 ---
 apiVersion: stable.example.com14/v1
-kind: CronTab14
+kind: CronTab
 ---
 apiVersion: stable.example.com15/v1
-kind: CronTab15
+kind: CronTab
 ---
 apiVersion: stable.example.com16/v1
-kind: CronTab16
+kind: CronTab
 ---
 apiVersion: stable.example.com17/v1
-kind: CronTab17
+kind: CronTab
 ---
 apiVersion: stable.example.com18/v1
-kind: CronTab18
+kind: CronTab
 ---
 apiVersion: stable.example.com19/v1
-kind: CronTab19
+kind: CronTab
 ---
 apiVersion: stable.example.com20/v1
-kind: CronTab20
+kind: CronTab
 ---
 apiVersion: stable.example.com21/v1
-kind: CronTab21
+kind: CronTab
 ---
 apiVersion: stable.example.com22/v1
-kind: CronTab22
+kind: CronTab
 ---
 apiVersion: stable.example.com23/v1
-kind: CronTab23
+kind: CronTab
 ---
 apiVersion: stable.example.com24/v1
-kind: CronTab24
+kind: CronTab
 ---
 apiVersion: stable.example.com25/v1
-kind: CronTab25
+kind: CronTab
 ---
 apiVersion: stable.example.com26/v1
-kind: CronTab26
+kind: CronTab
 ---
 apiVersion: stable.example.com27/v1
-kind: CronTab27
+kind: CronTab
 ---
 apiVersion: stable.example.com28/v1
-kind: CronTab28
+kind: CronTab
 ---
 apiVersion: stable.example.com29/v1
-kind: CronTab29
+kind: CronTab
 ---
 apiVersion: stable.example.com30/v1
-kind: CronTab30
+kind: CronTab
 ---
 apiVersion: stable.example.com31/v1
-kind: CronTab31
+kind: CronTab
 ---
 apiVersion: stable.example.com32/v1
-kind: CronTab32
+kind: CronTab
 ---
 apiVersion: stable.example.com33/v1
-kind: CronTab33
+kind: CronTab
 ---
 apiVersion: stable.example.com34/v1
-kind: CronTab34
+kind: CronTab
 ---
 apiVersion: stable.example.com35/v1
-kind: CronTab35
+kind: CronTab
 ---
 apiVersion: stable.example.com36/v1
-kind: CronTab36
+kind: CronTab
 ---
 apiVersion: stable.example.com37/v1
-kind: CronTab37
+kind: CronTab
 ---
 apiVersion: stable.example.com38/v1
-kind: CronTab38
+kind: CronTab
 ---
 apiVersion: stable.example.com39/v1
-kind: CronTab39
+kind: CronTab
 ---
 apiVersion: stable.example.com40/v1
-kind: CronTab40
+kind: CronTab
 ---
 apiVersion: stable.example.com41/v1
-kind: CronTab41
+kind: CronTab
 ---
 apiVersion: stable.example.com42/v1
-kind: CronTab42
+kind: CronTab
 ---
 apiVersion: stable.example.com43/v1
-kind: CronTab43
+kind: CronTab
 ---
 apiVersion: stable.example.com44/v1
-kind: CronTab44
+kind: CronTab
 ---
 apiVersion: stable.example.com45/v1
-kind: CronTab45
+kind: CronTab
 ---
 apiVersion: stable.example.com46/v1
-kind: CronTab46
+kind: CronTab
 ---
 apiVersion: stable.example.com47/v1
-kind: CronTab47
+kind: CronTab
 ---
 apiVersion: stable.example.com48/v1
-kind: CronTab48
+kind: CronTab
 ---
 apiVersion: stable.example.com49/v1
-kind: CronTab49
+kind: CronTab
 ---
 apiVersion: stable.example.com50/v1
-kind: CronTab50
-
-
+kind: CronTab
 ---
 apiVersion: stable.example.com51/v1
 kind: CronTab
