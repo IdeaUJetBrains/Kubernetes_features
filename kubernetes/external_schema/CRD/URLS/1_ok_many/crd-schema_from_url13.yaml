@@ -6,7 +6,7 @@ metadata:
   name: crontabs.stable.example.com13
 spec:
   # group name to use for REST API: /apis/<group>/<version>
-  group: stable.example.com13
+  group: stable.example.com13_changed
   # version name to use for REST API: /apis/<group>/<version>
   version: v1
   # either Namespaced or Cluster
