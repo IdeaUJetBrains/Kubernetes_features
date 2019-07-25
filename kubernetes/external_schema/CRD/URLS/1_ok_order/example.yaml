@@ -1,0 +1,26 @@
+#urls order: status1 and status1_1  from  diff urls:
+apiVersion: stable.example.com51/v1
+kind: CronTab51
+status1:
+  somebool:
+
+---
+#mixed urls/local_files order
+apiVersion: stable.example.com52/v1
+kind: CronTab52
+status1:
+  somebool:
+
+---
+#local_files order
+apiVersion: stable.example.com53/v1
+kind: CronTab53
+status1:
+  somebool:
+
+---
+apiVersion: stable.example.com50/v1
+kind: CronTab50
+---
+apiVersion: stable.example.com52/v1
+kind: CronTab
