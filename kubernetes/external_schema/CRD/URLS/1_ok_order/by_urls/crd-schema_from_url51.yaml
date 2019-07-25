@@ -36,17 +36,17 @@ spec:
               type: string
           required:
             - name
-        spec:
+        spec_url_51:
           properties:
-            somestring:
+            somestring_url_51:
               type: string
           required:
-            - somestring
+            - somestring_url_51
           type: object
-        status1:
+        status1_url_51:
           properties:
-            somebool:
+            somebool_url_51:
               type: boolean
           required:
-            - somebool
+            - somebool_url_51
           type: object

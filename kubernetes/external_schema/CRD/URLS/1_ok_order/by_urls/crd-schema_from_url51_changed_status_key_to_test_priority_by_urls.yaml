@@ -23,7 +23,7 @@ spec:
     - ct
   validation:
     openAPIV3Schema:
-      description: ssss_1
+      description: ssss_url_51_changed
       properties:
         apiVersion:
           type: string
@@ -36,17 +36,17 @@ spec:
               type: string
           required:
             - name
-        spec:
+        spec_url_51_changed:
           properties:
-            somestring:
+            somestring_url_51_changed:
               type: string
           required:
-            - somestring
+            - somestring_url_51_changed
           type: object
-        status1_1:
+        status1_url_51_changed:
           properties:
-            somebool:
+            somebool_url_51_changed:
               type: boolean
           required:
-            - somebool
+            - somebool_url_51_changed
           type: object
