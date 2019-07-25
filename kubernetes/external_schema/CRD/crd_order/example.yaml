@@ -3,10 +3,13 @@
 #https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/URLS/1_ok_order/by_urls/crd-schema_from_url51_changed_status_key_to_test_priority_by_urls.yaml
 apiVersion: stable.example.com51/v1
 kind: CronTab51
-status1:
-  somebool: true
-status1_1:
-  somebool: true
+#one file:
+status1_url_51:
+  somebool_url_51: true
+#  changed file:
+status1_url_51_changed:
+  somebool_url_51_changed: true
+
 ---
 #mixed urls/local_files order
 #https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/URLS/1_ok_order/by_urls_and_local_files/crd-schema_from_url52.yaml
@@ -14,17 +17,17 @@ apiVersion: stable.example.com52/v1
 kind: CronTab52
 status1_52_local_file:
   somebool_52_local_file: true
-status1:
-  somebool: true
+status1_url_52:
+  somebool_url_52: true
 
 ---
 #local_files order
 apiVersion: stable.example.com53/v1
 kind: CronTab53
-status1_53_local_file_keys_changed:
-  somebool_53_local_file_keys_changed: true
 status1_53_local_file:
   somebool_53_local_file: true
+status1_53_local_file_keys_changed:
+  somebool_53_local_file_keys_changed: true
 
 
 
