@@ -18,9 +18,11 @@ kind: CronTab53
 status1:
   somebool:
 
+
+
+
+#JUST one valid from 1_ok_many (not order related)
 ---
 apiVersion: stable.example.com50/v1
 kind: CronTab50
----
-apiVersion: stable.example.com52/v1
-kind: CronTab
+
