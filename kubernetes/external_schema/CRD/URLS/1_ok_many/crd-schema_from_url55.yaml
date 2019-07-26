@@ -6,18 +6,18 @@ metadata:
   name: crontabs.stable.example.com55
 spec:
   # group name to use for REST API: /apis/<group>/<version>
-  group: stable.example.com55
+  group: stable.example.com55_changed
   # version name to use for REST API: /apis/<group>/<version>
   version: v1
   # either Namespaced or Cluster
   scope: Namespaced
   names:
     # plural name to be used in the URL: /apis/<group>/<version>/<plural>
-    plural: crontabs55
+    plural: crontabs55_changed
     # singular name to be used as an alias on the CLI and for display
-    singular: crontab55
+    singular: crontab55_changed
     # kind is normally the CamelCased singular type. Your resource manifests use this.
-    kind: CronTab55
+    kind: CronTab55_changed
     # shortNames allow shorter string to match your resource on the CLI
     shortNames:
     - ct
