@@ -1,0 +1,51 @@
+﻿apiVersion: config.istio.io_check_invalid_url/v1alpha2_check_invalid_url
+kind: metric
+metadata:
+  name: requestduration
+spec:
+  replicas: 124
+---
+kind: CustomResourceDefinition
+apiVersion: apiextensions.k8s.io/v1beta1
+metadata:
+  name: metrics.config.istio.io_check_invalid_url
+  labels:
+    package: metrice
+    istio: mixer-instance
+spec:
+  group: config.istio.io_check_invalid_url
+  names:
+    kind: metric
+    plural: metrics
+    singular: metric
+  scope: Namespaced
+  versions:
+    - name: v1alpha2_check_invalid_url
+      served: true
+      storage: true
+  validation:
+    openAPIV3Schema:
+      properties:
+        spec:
+          properties:
+            replicas:
+              type: integer
+              minimum: 1
+              maximum: 10
+        metadata:
+          properties:
+            name:
+              type: string
+---
+#comment und uncomment
+apiVersion: apiextensions.k8s.io/v1beta1
+kind: CustomResourceDefinition
+metadata:
+  name: crontabs.stable.example.com
+spec:
+  names:
+    kind: test
+    plural: test
+  group: test
+  scope: test
+
