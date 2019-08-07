@@ -1,0 +1,34 @@
+# example from K8s docs
+apiVersion: apiextensions.k8s.io/v1beta1
+kind: CustomResourceDefinition
+metadata:
+  name: crontabs_test.validation.keys_preserveUnknownFields_true
+spec:
+  preserveUnknownFields: true
+  group: stable_test.validation.keys_preserveUnknownFields_true
+  version: v1
+  scope: Namespaced
+  names:
+    plural: crontabs_validation
+    singular: crontab_validation
+    kind: CronTab_validation
+    shortNames:
+      - ct
+  validation:
+    openAPIV3Schema:
+      description: test
+      properties:
+        spec:
+          properties:
+            somestring_validation:
+              type: string
+          required:
+            - somestring_validation
+          type: object
+        status_validation:
+          properties:
+            somebool_validation:
+              type: boolean
+          required:
+            - somebool_validation
+          type: object
