@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: opmysql-deploy
+  labels:
+    app: opmysql-deploy
+spec:
+  replicas: 1
+  template:
+    metadata:
+      name: opmysql-deploy
+      labels:
+        app: opmysql-deploy
+    spec:
+      containers:
+        - name: opmysql-deploy
+          image: opavlova/db-mysql:5.7
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 3306
+      restartPolicy: Always
+  selector:
+    matchLabels:
+      app: opmysql-deploy
+
