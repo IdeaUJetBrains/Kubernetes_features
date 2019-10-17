@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: op-many-cont
+  labels:
+    app: op-many-cont
+spec:
+  replicas: 1
+  template:
+    metadata:
+      name: op-many-cont
+      labels:
+        app: op-many-cont
+    spec:
+      containers:
+        - name: opcont1
+          image: opavlova/db-mysql:5.7
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 3306
+        - name: opcont2
+          image: tomcat
+          ports:
+            - containerPort: 8080
+      restartPolicy: Always
+  selector:
+    matchLabels:
+      app: op-many-cont
+
