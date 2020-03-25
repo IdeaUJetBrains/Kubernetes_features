@@ -5,6 +5,7 @@ metadata:
   # name must match the spec fields below, and be in the form: <plural>.<group>
   name: crontabs.stable.example.com101
 spec:
+  preserveUnknownFields: false
   # group name to use for REST API: /apis/<group>/<version>
   group: stable.example.com101
   # version name to use for REST API: /apis/<group>/<version>
