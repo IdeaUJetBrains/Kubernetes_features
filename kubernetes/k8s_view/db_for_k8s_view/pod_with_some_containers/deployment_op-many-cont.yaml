@@ -1,29 +1,29 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: op-many-cont
+  name: op-many-cont1
   labels:
-    app: op-many-cont
+    app: op-many-cont1
 spec:
   replicas: 1
   template:
     metadata:
-      name: op-many-cont
+      name: op-many-cont1
       labels:
-        app: op-many-cont
+        app: op-many-cont1
     spec:
       containers:
         - name: opcont1
           image: opavlova/db-mysql:5.7
           imagePullPolicy: IfNotPresent
           ports:
-            - containerPort: 3306
+            - containerPort: 3307
         - name: opcont2
           image: tomcat
           ports:
-            - containerPort: 8080
+            - containerPort: 8081
       restartPolicy: Always
   selector:
     matchLabels:
-      app: op-many-cont
-
+      app: op-many-cont1
+#  kubectl apply -f deployment_op-many-cont.yaml

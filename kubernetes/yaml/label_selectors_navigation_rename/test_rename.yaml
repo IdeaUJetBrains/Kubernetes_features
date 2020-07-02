@@ -8,4 +8,3 @@ metadata:
   namespace: kube-system
   labels:
     k8s-app: "true"
-    addonmanager.kubernetes.io/mode: Reconcile

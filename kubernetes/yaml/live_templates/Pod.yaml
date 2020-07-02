@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: ff
+  name: fff
   labels:
-    app: ff
+    app: serviceconfname
 spec:
   containers:
-  - name: ff
+  - name: fff
     image: fff
     imagePullPolicy: IfNotPresent
   restartPolicy: Always

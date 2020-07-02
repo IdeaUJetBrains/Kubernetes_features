@@ -166,10 +166,10 @@ apiVersion: stable.example.com54/v1
 kind: CronTab
 ---
 apiVersion: stable.example.com55/v1
-kind: CronTab
+kind: CronTab55
 ---
 apiVersion: stable.example.com56/v1
-kind: CronTab
+kind: CronTab56_changed
 ---
 apiVersion: stable.example.com57/v1
 kind: CronTab

@@ -1,0 +1,21 @@
+{
+  "apiVersion": "v1",
+  "kind": "Pod",
+  "metadata": {
+    "name": "rbd2"
+  },
+  "spec": {
+    "containers": [
+      {
+        "name": "rbd-rw",
+        "image": "kubernetes/pause"
+      }
+    ],
+    "volumes": [
+      {
+        "name": "",
+        "azureDisk": ""
+      }
+    ]
+  }
+}

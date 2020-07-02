@@ -1,0 +1,7 @@
+#Finalizers are arbitrary string values,
+#  that when present ensure that a hard delete of a resource is not possible while they exist.
+apiVersion: "stable.example.com/v1"
+kind: CronTab
+metadata:
+  finalizers:
+    - finalizer.stable.example.com

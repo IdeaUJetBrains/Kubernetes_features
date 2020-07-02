@@ -3,17 +3,16 @@ kind: Service
 status:
   loadBalancer:
     ingress:
-    - hostname: test
-    - ip: 0.0.0.0
+      - hostname: test
+      - ip: 0.0.0.0
 spec:
 
-  externalName: вв
+  externalName: tt
   selector:
     name: etcd
 
   ports:
-  - port:
-
+    - port: 7777
 
 
 

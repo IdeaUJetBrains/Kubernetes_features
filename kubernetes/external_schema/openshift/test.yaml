@@ -1,0 +1,9 @@
+apiVersion: image.openshift.io/v1
+kind: DeleteOptions
+gracePeriodSeconds: 111
+preconditions:
+  uid: 222
+propagationPolicy: 444
+
+
+

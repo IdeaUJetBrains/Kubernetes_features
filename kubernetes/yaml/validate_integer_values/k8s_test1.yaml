@@ -6,8 +6,9 @@ metadata:
 spec:
   template:
     spec:
-      activeDeadlineSeconds:   3
-      activeDeadlineSeconds: 4
+      activeDeadlineSeconds: ""
+      activeDeadlineSeconds:    3
+      activeDeadlineSeconds: 0
       activeDeadlineSeconds: "-2048"
       activeDeadlineSeconds: "-2147483648"
       activeDeadlineSeconds: "2147483647"
@@ -53,4 +54,4 @@ spec:
       activeDeadlineSeconds: """
 
       containers:
-      - name: test
+        - name: test

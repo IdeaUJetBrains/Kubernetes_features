@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: List
+items:
+  - apiVersion: extensions/v1beta1
+    kind: Ingress
+    metadata:
+      name: thing
+    spec:
+      rules:
+        - host: example.com
+          http:
+            paths:
+              - backend:
+                  serviceName: example
+                  servicePort: http
+                path: /

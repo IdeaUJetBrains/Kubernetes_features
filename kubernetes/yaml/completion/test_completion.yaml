@@ -5,11 +5,12 @@ metadata:
 spec:
   selector:
     matchLabels:
-      k8s-app: cassandra
+      k8s-app_renamed: cassandra
   template:
     metadata:
       labels:
-        k8s-app: cassandra
+        k8s-app_renamed: cassandra
+        app:
     spec:
       containers:
       - name: test_name

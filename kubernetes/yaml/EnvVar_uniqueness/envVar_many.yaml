@@ -4,11 +4,12 @@ metadata:
   name: test-pod
 spec:
   containers:
-  - name: test-container
-    image: gcr.io/google_containers/busybox
-    env:
-    - name: MY_POD_NAME
-      valueFrom:
-        fieldRef:
-          fieldPath: status.hostIP
-    - name:
+    - name: test-container
+      image: gcr.io/google_containers/busybox
+      env:
+        - name: MY_POD_NAME
+          valueFrom:
+            fieldRef:
+              fieldPath: status.hostIP
+      - name:
+        - name:

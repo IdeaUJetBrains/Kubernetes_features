@@ -1,0 +1,8 @@
+{
+  "kind":"ReplicationController",
+  "apiVersion":"v1",
+  "metadata":{
+    "name":"guestbook",
+
+  }
+}

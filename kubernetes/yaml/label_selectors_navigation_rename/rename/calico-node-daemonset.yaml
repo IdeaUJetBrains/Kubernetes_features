@@ -28,9 +28,9 @@ spec:
       # deletion": https://kubernetes.io/docs/concepts/workloads/pods/pod/#termination-of-pods.
       terminationGracePeriodSeconds: 0
       containers:
-        # Runs calico/node container on each Kubernetes node.  This
-        # container programs network policy and routes on each
-        # host.
+      # Runs calico/node container on each Kubernetes node.  This
+      # container programs network policy and routes on each
+      # host.
       - name: calico-node
         image: calico/node:v2.6.1
         env:
@@ -132,7 +132,7 @@ spec:
         - mountPath: /host/etc/cni/net.d
           name: cni-net-dir
       volumes:
-        # Used to ensure proper kmods are installed.
+      # Used to ensure proper kmods are installed.
       - name: lib-modules
         hostPath:
           path: /lib/modules

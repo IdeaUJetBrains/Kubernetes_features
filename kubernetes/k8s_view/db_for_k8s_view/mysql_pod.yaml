@@ -1,14 +1,14 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: opmysql
-  namespace: op
+  name: opmysql4
+#  namespace: op
   labels:
-    app: opmysql
+    app: opmysql4
 spec:
   containers:
-    - name: opmysql
-      image: opavlova/db-mysql:5.7
+    - name: opmysql4
+      image: opavlova/db-mysql:5.6
       imagePullPolicy: IfNotPresent
       ports:
         - containerPort: 3306

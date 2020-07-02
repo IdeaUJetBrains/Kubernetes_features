@@ -1,19 +1,25 @@
 {
   "apiVersion": "v1",
   "kind": "Pod",
-
   "metadata": {
-    "name": "rbd2"
+    "deletionGracePeriodSeconds": 44,
+    "name": "rbd2",
+    "resourceVersion": "22",
+    "creationTimestamp": "ss"
   },
   "spec": {
     "containers": [
       {
         "name": "rbd-rw",
         "image": "kubernetes/pause",
+
         "volumeMounts": [
           {
             "mountPath": "/mnt/rbd",
-            "name": "rbdpd"
+            "name": "rbdpd",
+            "mountPropagation": "",
+            "subPath": "",
+            "readOnly": false
           }
         ]
       }
@@ -25,6 +31,7 @@
       {
         "name": "rbdpd",
         "rbd": {
+          "keyring": "",
           "monitors": [
             "10.16.154.78:6789"
           ],
@@ -35,7 +42,8 @@
             "name": "ceph-secret"
           },
           "fsType": "ext4",
-          "readOnly": true
+          "readOnly": true,
+
         }
       }
     ]

@@ -1,6 +1,6 @@
 {
   "kind": "ReplicationController",
-  "apiVersion": "",
+  "apiVersion": "v1",
   "metadata": {
     "name": "guestbook",
     "labels": {
@@ -34,6 +34,7 @@
         ],
 
       }
-    }
+    },
+    "minReadySeconds":
   }
 }

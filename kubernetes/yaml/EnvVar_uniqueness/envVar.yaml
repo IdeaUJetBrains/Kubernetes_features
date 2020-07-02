@@ -2,6 +2,7 @@ apiVersion: v1
 kind: ReplicationController
 metadata:
   name: cassandra
+
 spec:
   template:
     metadata:

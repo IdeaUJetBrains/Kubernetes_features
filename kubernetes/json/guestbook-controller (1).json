@@ -3,7 +3,11 @@
   "apiVersion": "v1",
   "metadata": {
     "name": "guestbook",
-    "ownerReferences": []
+    "ownerReferences": [],
+    "deletionGracePeriodSeconds": 222,
+    "labels": {
+
+    }
   },
   "spec": {
     "replicas": "a3",
@@ -13,6 +17,7 @@
     "template": {
       "metadata": {
         "labels": {
+          "app": "guestbook",
           "app": "guestbook"
         }
       },
@@ -24,9 +29,9 @@
             "ports": [
               {
                 "name": "http-server",
-                "containerPort": 3000
+                "containerPort":,
                 "hostIP1": "",
-                "hostPort": "444",
+                "hostPort":111,
                 "protocol": ""
               }
             ]

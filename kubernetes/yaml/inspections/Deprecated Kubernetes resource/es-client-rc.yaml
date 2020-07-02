@@ -13,7 +13,7 @@ spec:
         component: elasticsearch
         role: client
     spec:
-      serviceAccount: elasticsearch
+      serviceAccount:
       containers:
       - name: es-client
         securityContext:

@@ -4,7 +4,7 @@ metadata:
   name: monitoring-influxdb-grafana-v4
   namespace: kube-system
   labels:
-    k8s-app: influxGrafana
+    k8s-app_renamed: influxGrafana
     version: v4
     kubernetes.io/cluster-service: "true"
     addonmanager.kubernetes.io/mode: Reconcile
@@ -12,12 +12,12 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      k8s-app: influxGrafana
+      k8s-app_renamed: influxGrafana
       version: v4
   template:
     metadata:
       labels:
-        k8s-app: influxGrafana
+        k8s-app_renamed: influxGrafana
         version: v4
       annotations:
         scheduler.alpha.kubernetes.io/critical-pod: ''

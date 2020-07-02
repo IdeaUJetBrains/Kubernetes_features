@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  annotations:
+    "key1" : "value1"
+    "key1" : "value2"
+  labels:
+    "release" : "value3"
+    "release" : "value4"

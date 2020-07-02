@@ -1,0 +1,13 @@
+Person:
+  type: object
+  properties:
+    id:
+      type: integer
+      format: int32
+      xml:
+        attribute: true
+    name:
+      type: string
+      xml:
+        namespace: http://example.com/schema/sample
+        prefix: sample
