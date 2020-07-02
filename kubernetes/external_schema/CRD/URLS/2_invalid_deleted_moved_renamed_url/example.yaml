@@ -1,0 +1,8 @@
+apiVersion: stable.example.com56/v1
+kind: CronTab56
+---
+apiVersion: stable.example.com57/v1
+kind: CronTab57
+---
+apiVersion: stable.example.com58/v1
+kind: CronTab58

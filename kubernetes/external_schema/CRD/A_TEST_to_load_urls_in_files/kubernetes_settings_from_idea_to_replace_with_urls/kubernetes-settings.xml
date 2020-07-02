@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="KubernetesSettings">
+    <option name="apiVersion" value="1.16" />
+    <specSources>
+      <SpecSource>
+        <option name="pathOrUrl" value="C:\Users\Olga Pavlova\IdeaProjects\ALL_K8TS_PROJECTS\Kubernetes_features\kubernetes\external_schema\CRD\from_diff_project_on_github\CRD_and_example_in_one_file\crd-schema-with-example_first_example.yaml" />
+      </SpecSource>
+      <SpecSource>
+        <option name="pathOrUrl" value="https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/URLS/1_ok/crd-schema_from_url.yaml" />
+      </SpecSource>
+      <SpecSource>
+        <option name="pathOrUrl" value="https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/URLS/1_ok_many/crd-schema_from_url2.yaml" />
+      </SpecSource>
+      <SpecSource>
+        <option name="pathOrUrl" value="https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/URLS/1_ok_many/crd-schema_from_url1.yaml" />
+      </SpecSource>
+      <SpecSource>
+        <option name="pathOrUrl" value="https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/URLS/1_ok_many/crd-schema_from_url3.yaml" />
+      </SpecSource>
+      <SpecSource>
+        <option name="pathOrUrl" value="https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/URLS/1_ok_many/crd-schema_from_url4.yaml" />
+      </SpecSource>
+      <SpecSource>
+        <option name="pathOrUrl" value="https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/URLS/1_ok_many/crd-schema_from_url5.yaml" />
+      </SpecSource>
+      <SpecSource>
+        <option name="pathOrUrl" value="https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/URLS/1_ok_many/crd-schema_from_url6.yaml" />
+      </SpecSource>
+      <SpecSource>
+        <option name="pathOrUrl" value="https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/URLS/1_ok_many/crd-schema_from_url7.yaml" />
+      </SpecSource>
+      <SpecSource>
+        <option name="pathOrUrl" value="https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/URLS/1_ok_many/crd-schema_from_url8.yaml" />
+      </SpecSource>
+      <SpecSource>
+        <option name="pathOrUrl" value="https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/URLS/1_ok_many/crd-schema_from_url9.yaml" />
+      </SpecSource>
+      <SpecSource>
+        <option name="pathOrUrl" value="https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/URLS/1_ok_many/crd-schema_from_url10.yaml" />
+      </SpecSource>
+      <SpecSource>
+        <option name="pathOrUrl" value="https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/URLS/1_ok_many/crd-schema_from_url11.yaml" />
+      </SpecSource>
+      <SpecSource>
+        <option name="pathOrUrl" value="https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/URLS/1_ok_many/crd-schema_from_url12.yaml" />
+      </SpecSource>
+      <SpecSource>
+        <option name="pathOrUrl" value="https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/URLS/1_ok_many/crd-schema_from_url13.yaml" />
+      </SpecSource>
+      <SpecSource>
+        <option name="pathOrUrl" value="https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/URLS/1_ok_many/crd-schema_from_url14.yaml" />
+      </SpecSource>
+      <SpecSource>
+        <option name="pathOrUrl" value="https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/URLS/1_ok_many/crd-schema_from_url15.yaml" />
+      </SpecSource>
+      <SpecSource>
+        <option name="pathOrUrl" value="https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/URLS/1_ok_many/crd-schema_from_url16.yaml" />
+      </SpecSource>
+      <SpecSource>
+        <option name="pathOrUrl" value="https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/URLS/1_ok_many/crd-schema_from_url17.yaml" />
+      </SpecSource>
+      <SpecSource>
+        <option name="pathOrUrl" value="https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/URLS/1_ok_many/crd-schema_from_url18.yaml" />
+      </SpecSource>
+      <SpecSource>
+        <option name="pathOrUrl" value="https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/URLS/1_ok_many/crd-schema_from_url19.yaml" />
+      </SpecSource>
+      <SpecSource>
+        <option name="pathOrUrl" value="https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/URLS/1_ok_many/crd-schema_from_url20.yaml" />
+      </SpecSource>
+      <SpecSource>
+        <option name="pathOrUrl" value="https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/URLS/1_ok_many/crd-schema_from_url21.yaml" />
+      </SpecSource>
+      <SpecSource>
+        <option name="pathOrUrl" value="https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/URLS/1_ok_many/crd-schema_from_url22.yaml" />
+      </SpecSource>
+      <SpecSource>
+        <option name="pathOrUrl" value="https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/URLS/1_ok_many/crd-schema_from_url23.yaml" />
+      </SpecSource>
+      <SpecSource>
+        <option name="pathOrUrl" value="https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/URLS/1_ok_many/crd-schema_from_url24.yaml" />
+      </SpecSource>
+      <SpecSource>
+        <option name="pathOrUrl" value="https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/URLS/1_ok_many/crd-schema_from_url25.yaml" />
+      </SpecSource>
+      <SpecSource>
+        <option name="pathOrUrl" value="https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/URLS/1_ok_many/crd-schema_from_url26.yaml" />
+      </SpecSource>
+      <SpecSource>
+        <option name="pathOrUrl" value="https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/URLS/1_ok_many/crd-schema_from_url27.yaml" />
+      </SpecSource>
+      <SpecSource>
+        <option name="pathOrUrl" value="https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/URLS/1_ok_many/crd-schema_from_url28.yaml" />
+      </SpecSource>
+      <SpecSource>
+        <option name="pathOrUrl" value="https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/URLS/1_ok_many/crd-schema_from_url29.yaml" />
+      </SpecSource>
+      <SpecSource>
+        <option name="pathOrUrl" value="https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/URLS/1_ok_many/crd-schema_from_url30.yaml" />
+      </SpecSource>
+      <SpecSource>
+        <option name="pathOrUrl" value="https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/URLS/1_ok_many/crd-schema_from_url31.yaml" />
+      </SpecSource>
+      <SpecSource>
+        <option name="pathOrUrl" value="https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/URLS/1_ok_many/crd-schema_from_url32.yaml" />
+      </SpecSource>
+      <SpecSource>
+        <option name="pathOrUrl" value="https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/URLS/1_ok_many/crd-schema_from_url33.yaml" />
+      </SpecSource>
+      <SpecSource>
+        <option name="pathOrUrl" value="https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/URLS/1_ok_many/crd-schema_from_url34.yaml" />
+      </SpecSource>
+      <SpecSource>
+        <option name="pathOrUrl" value="https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/URLS/1_ok_many/crd-schema_from_url35.yaml" />
+      </SpecSource>
+      <SpecSource>
+        <option name="pathOrUrl" value="https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/URLS/1_ok_many/crd-schema_from_url36.yaml" />
+      </SpecSource>
+      <SpecSource>
+        <option name="pathOrUrl" value="https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/URLS/1_ok_many/crd-schema_from_url37.yaml" />
+      </SpecSource>
+      <SpecSource>
+        <option name="pathOrUrl" value="https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/URLS/1_ok_many/crd-schema_from_url38.yaml" />
+      </SpecSource>
+      <SpecSource>
+        <option name="pathOrUrl" value="https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/URLS/1_ok_many/crd-schema_from_url39.yaml" />
+      </SpecSource>
+      <SpecSource>
+        <option name="pathOrUrl" value="https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/URLS/1_ok_many/crd-schema_from_url40.yaml" />
+      </SpecSource>
+      <SpecSource>
+        <option name="pathOrUrl" value="https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/URLS/1_ok_many/crd-schema_from_url41.yaml" />
+      </SpecSource>
+      <SpecSource>
+        <option name="pathOrUrl" value="https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/URLS/1_ok_many/crd-schema_from_url42.yaml" />
+      </SpecSource>
+      <SpecSource>
+        <option name="pathOrUrl" value="https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/URLS/1_ok_many/crd-schema_from_url43.yaml" />
+      </SpecSource>
+      <SpecSource>
+        <option name="pathOrUrl" value="https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/URLS/1_ok_many/crd-schema_from_url44.yaml" />
+      </SpecSource>
+      <SpecSource>
+        <option name="pathOrUrl" value="https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/URLS/1_ok_many/crd-schema_from_url45.yaml" />
+      </SpecSource>
+      <SpecSource>
+        <option name="pathOrUrl" value="https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/URLS/1_ok_many/crd-schema_from_url46.yaml" />
+      </SpecSource>
+      <SpecSource>
+        <option name="pathOrUrl" value="https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/URLS/1_ok_many/crd-schema_from_url47.yaml" />
+      </SpecSource>
+      <SpecSource>
+        <option name="pathOrUrl" value="https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/URLS/1_ok_many/crd-schema_from_url48.yaml" />
+      </SpecSource>
+      <SpecSource>
+        <option name="pathOrUrl" value="https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/URLS/1_ok_many/crd-schema_from_url49.yaml" />
+      </SpecSource>
+      <SpecSource>
+        <option name="pathOrUrl" value="https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/URLS/1_ok_many/crd-schema_from_url50.yaml" />
+      </SpecSource>
+      <SpecSource>
+        <option name="pathOrUrl" value="https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/crd_order/by_urls/crd-schema_from_url51_changed_status_key_to_test_priority_by_urls.yaml" />
+      </SpecSource>
+      <SpecSource>
+        <option name="pathOrUrl" value="https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/crd_order/by_urls/crd-schema_from_url51.yaml" />
+      </SpecSource>
+      <SpecSource>
+        <option name="pathOrUrl" value="C:\Users\Olga Pavlova\IdeaProjects\ALL_K8TS_PROJECTS\Kubernetes_features\kubernetes\external_schema\CRD\crd_order\by_urls_and_local_files\CRD_local_k8s_file_to_check_order_for_52url.yaml" />
+      </SpecSource>
+      <SpecSource>
+        <option name="pathOrUrl" value="https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/crd_order/by_urls_and_local_files/crd-schema_from_url52.yaml" />
+      </SpecSource>
+      <SpecSource>
+        <option name="pathOrUrl" value="C:\Users\Olga Pavlova\IdeaProjects\ALL_K8TS_PROJECTS\Kubernetes_features\kubernetes\external_schema\CRD\crd_order\by_local_files\CRD_local_to_check_order_for_53_keys_changed.yaml" />
+      </SpecSource>
+      <SpecSource>
+        <option name="pathOrUrl" value="C:\Users\Olga Pavlova\IdeaProjects\ALL_K8TS_PROJECTS\Kubernetes_features\kubernetes\external_schema\CRD\crd_order\by_local_files\CRD_local_to_check_order_for_53.yaml" />
+      </SpecSource>
+    </specSources>
+  </component>
+</project>

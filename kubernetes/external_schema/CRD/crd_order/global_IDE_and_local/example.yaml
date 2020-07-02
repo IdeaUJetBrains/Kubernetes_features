@@ -1,0 +1,24 @@
+#urls order: status1 and status1_1  from  diff urls:
+#
+#https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/crd_order/global_IDE_and_local/crd-schema_from_url101.yaml
+#https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/crd_order/global_IDE_and_local/crd-schema_from_url101_changed_status_key_to_test_priority_by_urls.yaml
+apiVersion: stable.example.com101/v1
+kind: CronTab101
+#one file:
+status1_url_101:
+  somebool_url_101: true
+#  changed file:
+status1_url_101_changed:
+  somebool_url_101_changed: true
+
+---
+#local_files order
+apiVersion: stable.example.com100/v1
+kind: CronTab100
+status1_100_local_file:
+  somebool_100_local_file: true
+status1_100_local_file_keys_changed:
+  somebool_100_local_file_keys_changed: true
+
+
+

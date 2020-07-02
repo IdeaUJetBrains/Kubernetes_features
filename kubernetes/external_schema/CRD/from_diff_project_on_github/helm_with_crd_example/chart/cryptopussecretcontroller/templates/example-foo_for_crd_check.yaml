@@ -1,0 +1,7 @@
+apiVersion: cryptopussecretcontroller.puzzle.ch/v1alpha1
+kind: SecretClaim
+metadata:
+  name: example-foo
+spec:
+  deploymentName: example-foo
+  replicas: 1

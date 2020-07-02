@@ -1,0 +1,21 @@
+#example for:
+#three_crd_schemas_in_one_file_1and3_empty
+---
+apiVersion: "example.com/v1"
+kind: Widget
+metadata:
+  name: test-widget
+spec:
+  somestring: test
+---
+apiVersion: example.com/v1
+kind: Cog
+metadata:
+  name: cog-test
+status5:
+  somebool: true
+status1:
+  somebool: true
+spec:
+  somestring: test
+---

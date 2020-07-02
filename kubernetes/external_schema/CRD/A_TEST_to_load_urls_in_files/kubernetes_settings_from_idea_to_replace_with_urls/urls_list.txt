@@ -1,0 +1,3 @@
+https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/validation_keys/CRD_url_preserveUnknownFields_absent.yaml
+https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/validation_keys/CRD_url_preserveUnknownFields_true.yaml
+https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/validation_keys/CRD_url_preserveUnknownFields_false.yaml

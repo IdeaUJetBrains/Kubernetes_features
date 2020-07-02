@@ -1,0 +1,53 @@
+# example from K8s docs
+apiVersion: apiextensions.k8s.io/v1beta1
+kind: CustomResourceDefinition
+metadata:
+  # name must match the spec fields below, and be in the form: <plural>.<group>
+  name: crontabs.stable.example.com100
+spec:
+  preserveUnknownFields: false
+  # group name to use for REST API: /apis/<group>/<version>
+  group: stable.example.com100
+  # version name to use for REST API: /apis/<group>/<version>
+  version: v1
+  # either Namespaced or Cluster
+  scope: Namespaced
+  names:
+    # plural name to be used in the URL: /apis/<group>/<version>/<plural>
+    plural: crontabs100
+    # singular name to be used as an alias on the CLI and for display
+    singular: crontab100
+    # kind is normally the CamelCased singular type. Your resource manifests use this.
+    kind: CronTab100
+    # shortNames allow shorter string to match your resource on the CLI
+    shortNames:
+      - ct
+  validation:
+    openAPIV3Schema:
+      description: ssss
+      properties:
+        apiVersion:
+          type: string
+        kind:
+          type: string
+        metadata:
+          type: object
+          properties:
+            name:
+              type: string
+          required:
+            - name
+        spec_100_local_file_keys_changed:
+          properties:
+            somestring_100_local_file_keys_changed:
+              type: string
+          required:
+            - somestring_100_local_file_keys_changed
+          type: object
+        status1_100_local_file_keys_changed:
+          properties:
+            somebool_100_local_file_keys_changed:
+              type: boolean
+          required:
+            - somebool_100_local_file_keys_changed
+          type: object

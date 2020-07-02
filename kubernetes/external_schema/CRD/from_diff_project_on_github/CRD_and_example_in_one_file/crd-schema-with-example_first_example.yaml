@@ -1,0 +1,50 @@
+﻿apiVersion: config.istio.io/v1alpha2
+kind: metric
+metadata:
+  name: requestduration
+  namespace: istio-system
+spec:
+  replicas: 124
+  value: response.duration | "0ms"
+  dimensions:
+    source_service: source.service | "unknown"
+    source_version: source.labels["version"] | "unknown"
+    destination_service: destination.service | "unknown"
+    destination_version: destination.labels["version"] | "unknown"
+    response_code: response.code | 200
+  monitored_resource_type: '"Höjd"'
+  somestring: test
+
+---
+kind: CustomResourceDefinition
+apiVersion: apiextensions.k8s.io/v1beta1
+metadata:
+  name: metrics.config.istio.io
+  labels:
+    package: metrice
+    istio: mixer-instance
+spec:
+  preserveUnknownFields: false
+  group: config.istio.io
+  names:
+    kind: metric
+    plural: metrics
+    singular: metric
+  scope: Namespaced
+  versions:
+    - name: v1alpha2
+      served: true
+      storage: true
+  validation:
+    openAPIV3Schema:
+      properties:
+        spec:
+          properties:
+            replicas21:
+              type: integer
+              minimum: 1
+              maximum: 10
+        metadata:
+          properties:
+            name21:
+              type: string

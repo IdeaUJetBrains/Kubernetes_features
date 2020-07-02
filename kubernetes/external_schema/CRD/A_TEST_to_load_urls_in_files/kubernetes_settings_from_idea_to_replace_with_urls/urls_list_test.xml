@@ -1,0 +1,8 @@
+<test>
+     <test1>
+        <option name="pathOrUrl" value="C:\Users\Olga Pavlova\IdeaProjects\ALL_K8TS_PROJECTS\Kubernetes_features\kubernetes\external_schema\CRD\from_diff_project_on_github\CRD_and_example_in_one_file\crd-schema-with-example_first_example.yaml" />
+      </test1>
+      <test2>
+        <option name="pathOrUrl" value="https://raw.githubusercontent.com/IdeaUJetBrains/Kubernetes_features/master/kubernetes/external_schema/CRD/URLS/1_ok/crd-schema_from_url.yaml" />
+      </test2>
+</test>

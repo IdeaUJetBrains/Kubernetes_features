@@ -1,0 +1,1 @@
+from https://github.com/al3xandru/k8s-crd/
