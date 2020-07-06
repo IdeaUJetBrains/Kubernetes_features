@@ -1,0 +1,8 @@
+
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: configmap-keys
+  namespace: default
+data:
+  diffkeys.example.property.1: hello1

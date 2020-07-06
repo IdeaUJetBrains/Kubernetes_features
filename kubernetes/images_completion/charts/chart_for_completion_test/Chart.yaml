@@ -1,0 +1,12 @@
+name: chart_for_completion_test
+version: 0.1.0
+appVersion: v1
+description: my service
+keywords:
+ - my
+ - docker
+maintainers:
+ - name: opavlova
+   email: Olga.Pavlova@jetbrains.com
+
+apiVersion: v1

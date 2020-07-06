@@ -1,0 +1,184 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  creationTimestamp: 2016-02-18T19:14:38Z
+  name: example-config-op
+  namespace: default
+data:
+  # example of a simple property defined using --from-literal
+  example.property.1: hello
+  example.property.2: world
+  # example of a complex property defined using --from-file
+  example.property.file: |-
+    property.1=value-1
+    property.2=value-2
+    property.3=value-3
+  test.java: |-
+    @WebService
+    public interface CalculatorServer {
+    	@WebMethod
+    	int sum(int a, int b);
+
+    	@WebMethod(operationName = "diff")
+    	int diff(int a, int b);
+
+    	@WebMethod
+    	int multiply(int a, int b);
+
+    	@WebMethod
+    	int divide(int a, int b);
+    }
+  test.yaml: |-
+    apiVersion: v1
+    kind: ConfigMap
+    metadata:
+      creationTimestamp: 2016-02-18T19:14:38Z
+      name: example-config
+      namespace: default
+    data:
+      # example of a simple property defined using --from-literal
+      example.property.1: hello
+  test.json: |-
+    {
+      "apiVersion": "v1",
+      "kind": "Pod",
+      "metadata": {
+        "deletionGracePeriodSeconds": 44,
+        "name": "rbd2",
+        "resourceVersion": "22",
+        "creationTimestamp": "ss"
+      },
+      "spec": {
+        "containers": [
+          {
+            "name": "rbd-rw",
+            "image": "kubernetes/pause",
+
+            "volumeMounts": [
+              {
+                "mountPath": "/mnt/rbd",
+                "name": "rbdpd",
+                "mountPropagation": "",
+                "subPath": "",
+                "readOnly": false
+              }
+            ]
+          }
+        ],
+        "nodeSelector": {
+          "test_comp": "testing_c"
+        },
+        "volumes": [
+          {
+            "name": "rbdpd",
+            "rbd": {
+              "keyring": "",
+              "monitors": [
+                "10.16.154.78:6789"
+              ],
+              "pool": "kube",
+              "image": "foo",
+              "user": "admin",
+              "secretRef": {
+                "name": "ceph-secret"
+              },
+              "fsType": "ext4",
+              "readOnly": true,
+
+            }
+          }
+        ]
+      }
+    }
+  test.javascript: |-
+    fetch("jaxrs_employee/")
+    function connect() {
+        var url = 'ws://localhost'
+        var socket_ws = new WebSocket(url);
+        stompClient1 = Stomp.over(socket_ws);
+
+        stompClient1.connect({}, function (frame) {
+            setConnected(true);
+            console.log('Connected: ' + frame);
+            stompClient1.subscribe('/topic/greetings', function (greeting) {
+                showGreeting(JSON.parse(greeting.body).content);
+            });
+    });
+  test.html: |-
+    <html lang="EN">
+       <head>
+           <title>Test1</title>
+           <script language="JavaScript">
+               function getfetch() {  return fetch("swagger_annot_res/myEntity1/");}
+           </script>
+       </head>
+       <body>
+       </body>
+       </html>
+  test.sql: |-
+    CREATE TABLE ENTITYBUS
+    (
+      EID INT PRIMARY KEY,
+      ENUMBER VARCHAR(255)
+    );
+  test.xml: |-
+    <beans xmlns="http://www.springframework.org/schema/beans"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns:context="http://www.springframework.org/schema/context"
+           xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+           http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+        <context:property-placeholder location="classpath:springdata/hsqldb.properties" />
+
+        <bean id="sessionFactory"
+              class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
+            <property name="dataSource" ref="dataSource" />
+            <property name="packagesToScan">
+                <list>
+                    <value>entity</value>
+                    <value>notentity</value>
+                </list>
+            </property>
+    <!--        <property name="mappingResources">-->
+    <!--            <list>-->
+    <!--                <value>notentity/Bus.hbm.xml</value>-->
+    <!--            </list>-->
+    <!--        </property>-->
+            <property name="hibernateProperties">
+                <props>
+                    <!--<prop key="hibernate.hbm2ddl.auto">${hibernate.hbm2ddl.auto}</prop>-->
+                    <prop key="hibernate.dialect">org.hibernate.dialect.HSQLDialect</prop>
+                    <!--<prop key="hibernate.dialect">${hibernate.dialect}</prop>-->
+    <!--                <prop key="physical_naming_strategy">newutil.LegacyPhysicalNamingStrategy_test1_test1</prop>-->
+                    <prop key="hibernate.implicit_naming_strategy">newutil.MyImplicitNamingStrategy</prop>
+
+                </props>
+            </property>
+        </bean>
+
+        <bean id="dataSource"
+              class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+            <property name="driverClassName" value="${database.driverClassName}"/>
+            <property name="url" value="${database.url}"/>
+    <!--        <property name="url" value="jdbc:hsqldb:file:~/db1/DB"/>-->
+
+            <property name="username" value="${database.username}"/>
+            <property name="password" value="${database.password}"/>
+        </bean>
+
+        <bean id="transactionManager"
+              class="org.springframework.orm.hibernate5.HibernateTransactionManager">
+            <property name="sessionFactory" ref="sessionFactory" />
+        </bean>
+
+
+
+
+    </beans>
+
+
+  test.query: |-
+    SELECT a FROM ENTITYBUS a
+  test.hql.query: |-
+    from Entitybus
+  test.simple.prop: testsimple

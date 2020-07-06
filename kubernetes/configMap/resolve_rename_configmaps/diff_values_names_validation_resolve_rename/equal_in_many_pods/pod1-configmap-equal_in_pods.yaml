@@ -1,0 +1,16 @@
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: equalinpods1
+spec:
+  containers:
+    - name: equalinpods1
+      image: k8s.gcr.io/busybox
+      command: [ "/bin/sh", "-c", "env" ]
+      env:
+        - name: SPECIAL_LEVEL_KEY1
+          valueFrom:
+            configMapKeyRef:
+              name: equalinpods
+              key: equalinpods.test.java

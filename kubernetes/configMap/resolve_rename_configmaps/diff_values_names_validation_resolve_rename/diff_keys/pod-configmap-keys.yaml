@@ -1,0 +1,97 @@
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: testmany1
+spec:
+  containers:
+    - name: testmany1
+      image: k8s.gcr.io/busybox
+      command: [ "/bin/sh", "-c", "env" ]
+      env:
+        - name: SPECIAL_LEVEL_KEY1
+          valueFrom:
+            configMapKeyRef:
+              name: diffkeys
+              key: diffkeys.example.property.1
+        - name: SPECIAL_LEVEL_KEY2
+          valueFrom:
+            configMapKeyRef:
+              name: diffkeys
+              key: diffkeys.example.property.file
+        - name: SPECIAL_LEVEL_KEY3
+          valueFrom:
+            configMapKeyRef:
+              name: diffkeys
+              key: diffkeys.test.java
+        - name: SPECIAL_LEVEL_KEY4
+          valueFrom:
+            configMapKeyRef:
+              name: diffkeys
+              key: diffkeys.test.hql.query
+        - name: SPECIAL_LEVEL_KEY5
+          valueFrom:
+            configMapKeyRef:
+              name: diffkeys
+              key: diffkeys.test.html
+        - name: SPECIAL_LEVEL_KEY6
+          valueFrom:
+            configMapKeyRef:
+              name: diffkeys
+              key: diffkeys.test.javascript
+        - name: SPECIAL_LEVEL_KEY7
+          valueFrom:
+            configMapKeyRef:
+              name: diffkeys
+              key: diffkeys.test.json
+        - name: SPECIAL_LEVEL_KEY8
+          valueFrom:
+            configMapKeyRef:
+              name: diffkeys
+              key: diffkeys.test.query
+        - name: SPECIAL_LEVEL_KEY10
+          valueFrom:
+            configMapKeyRef:
+              name: diffkeys
+              key: diffkeys.test.html
+        - name: SPECIAL_LEVEL_KEY11
+          valueFrom:
+            configMapKeyRef:
+              name: diffkeys
+              key: diffkeys.test.sql
+        - name: SPECIAL_LEVEL_KEY12
+          valueFrom:
+            configMapKeyRef:
+              name: diffkeys
+              key: diffkeys.test.javascript
+        - name: SPECIAL_LEVEL_KEY13
+          valueFrom:
+            configMapKeyRef:
+              name: diffkeys
+              key: diffkeys.test.xml
+        - name: SPECIAL_LEVEL_KEY14
+          valueFrom:
+            configMapKeyRef:
+              name: diffkeys
+              key: diffkeys.test.yaml
+#        - name: SPECIAL_LEVEL_KEY15
+#          valueFrom:
+#            configMapKeyRef:
+#              name: diffkeys
+#              key: diffkeys.example.property.1
+#        - name: SPECIAL_LEVEL_KEY16
+#          valueFrom:
+#            configMapKeyRef:
+#              name: diffkeys
+#              key: diffkeys.example.property.1
+#        - name: SPECIAL_LEVEL_KEY17
+#          valueFrom:
+#            configMapKeyRef:
+#              name: diffkeys
+#              key: diffkeys.example.property.1
+#
+#        - name: SPECIAL_LEVEL_KEY18
+#          valueFrom:
+#            configMapKeyRef:
+#              name: diffkeys
+#              key: diffkeys.example.property.1

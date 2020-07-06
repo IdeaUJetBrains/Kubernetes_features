@@ -1,0 +1,27 @@
+#---
+#---
+#---
+---
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: testpod
+  labels:
+    app: testpod
+spec:
+  replicas: 1
+  template:
+    metadata:
+      name: testpod
+      labels:
+        app: testpod
+    spec:
+      containers:
+        - name: testpod
+          image: tomcat
+          imagePullPolicy: IfNotPresent
+      restartPolicy: Always
+  selector:
+    matchLabels:
+      app: testpod

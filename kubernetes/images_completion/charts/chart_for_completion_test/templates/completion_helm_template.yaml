@@ -1,0 +1,107 @@
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  name: test
+  labels:
+    app: test
+    chart: "{{ .Chart.Name }}-{{ .Chart.Version }}"
+    release: "{{ .Release.Name }}"
+    heritage: "{{ .Release.Service }}"
+    component: worker
+
+spec:
+  replicas: {{ .Values.workerConfig.replicaCount }}
+  template:
+    metadata:
+      labels:
+        app: test
+        component: worker
+    spec:
+      containers:
+#      HELM!!!!  check completion after the value - no completion for the second image
+      - name: test
+        image: "{{ .Values.image }}:{{ .Values.imageTag }}"
+      - name: opmysql7
+        image:  {{ .Values.image.tag  }}
+      - name: test
+        image: "{{ .Values.image.repo }}:{{ .Values.image.tag }}"
+      - name: test
+        image: "{{ .Values.image.repo }}:{{ .Values.image.tag }}"
+      - name: {{ .Chart.Name }}-worker
+        image: {{ .Values.image.tag  }}
+        {{- if eq .Values.workerConfig.analyzerMode "localanchore" }}
+        securityContext:
+          privileged: true
+        {{- end }}
+        env:
+        - name: ANCHORE_ENGINE_SERVICES
+          value: anchore-worker
+        - name: ANCHORE_DB
+          value: {{ .Values.postgresql.postgresDatabase }}
+        - name: ANCHORE_DB_HOST
+          value: test
+        - name: ANCHORE_DB_USER
+          valueFrom:
+            secretKeyRef:
+              name: test
+              key: dbUser
+        - name: ANCHORE_DB_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: test
+              key: dbPassword
+        - name: ANCHORE_ADMIN_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: test
+              key: adminPassword
+        volumeMounts:
+        - name: config-volume
+          mountPath: /config
+        {{- if eq .Values.workerConfig.analyzerMode "localanchore" -}}
+        - name: docker-sock
+          mountPath: /var/run/docker.sock
+        {{- end -}}
+        {{- if .Values.globalConfig.internalServicesSslEnabled }}
+        - name: certs
+          mountPath: {{ default "/certs" .Values.workerConfig.ssl.CertDir }}
+          readOnly: true
+        {{- end }}
+        - name: analysis-scratch
+          mountPath: {{ .Values.workerConfig.analysisScratchVolume.mountPath }}
+        livenessProbe:
+          exec:
+            command:
+            - pgrep
+            - twistd
+          initialDelaySeconds: 60
+          periodSeconds: 60
+          failureThreshold: 5
+      volumes:
+        - name: config-volume
+          configMap:
+            name: test
+        {{- if eq .Values.workerConfig.analyzerMode "localanchore" }}
+        - name: docker-sock
+          hostPath:
+            path: /var/run/docker.sock
+        {{- end }}
+        {{- if .Values.globalConfig.internalServicesSslEnabled }}
+        - name: certs
+          secret:
+            secretName: {{ .Values.workerConfig.ssl.certSecret }}
+        {{- end }}
+        - name: analysis-scratch
+          {{ toYaml .Values.workerConfig.analysisScratchVolume.details -}}
+    {{- if .Values.workerConfig.nodeSelector }}
+      nodeSelector:
+{{ toYaml .Values.workerConfig.nodeSelector | indent 8 }}
+    {{- end }}
+    {{- with .Values.workerConfig.affinity }}
+      affinity:
+{{ toYaml . | indent 8 }}
+    {{- end }}
+    {{- with .Values.workerConfig.tolerations }}
+      tolerations:
+{{ toYaml . | indent 8 }}
+    {{- end }}

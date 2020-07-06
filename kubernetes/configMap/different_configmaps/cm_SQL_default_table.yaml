@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  creationTimestamp: 2016-02-18T19:14:38Z
+  name: example-config-op
+  namespace: default
+data:
+  test.sql: |-
+    CREATE TABLE ENTITYBUS
+    (
+      EID INT PRIMARY KEY,
+      ENUMBER VARCHAR(255)
+    );
+
+
+  test.query: |-
+    SELECT a FROM ENTITYBUS a
+  test.hql.query: |-
+    from Entitybus
+  test.simple.prop: testsimple
+

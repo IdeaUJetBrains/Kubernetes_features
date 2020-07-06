@@ -1,0 +1,15 @@
+#Provide ConfigMap names validation. It should be:
+#-not more that 253 symbols,
+#-lowercase alphanumeric characters, ‘-’ or ‘.’
+#-start and end with alphanumeric characters
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: .-g-a-m-e-co-n.f-ig.-
+  namespace: default
+data:
+  game.properties: |
+    enemies=aliens
+    lives=3
+  ui.properties: |
+    color.good=purple

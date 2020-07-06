@@ -13,10 +13,6 @@
       <usages-collector id="statistics.spring.core.usages.trigger" />
     </session>
   </component>
-  <component name="KubernetesApiPersistence">
-    <option name="context" value="minikube" />
-    <option name="namespace" value="default" />
-  </component>
   <component name="NullableNotNullManager">
     <option name="myDefaultNullable" value="org.jetbrains.annotations.Nullable" />
     <option name="myDefaultNotNull" value="org.jetbrains.annotations.NotNull" />

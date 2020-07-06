@@ -1,0 +1,60 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: opmysql
+#  namespace: op
+  labels:
+    app: opmysql
+spec:
+  containers:
+    - name: opmysql1
+      image: "opavlova/db-mysql:5.7-test"
+    - name: opmysql2
+      image: "sha256:c6bf9129e93fa374456cf7d6a8dd013e1682d234fd7dffa9816d6949ab27dcee"
+    - name: opmysql3
+      image: 'opavlova/db-mysql:5.7-test'
+    - name: opmysql4
+      image: opavlova/db-mysql:5.7-test
+    - name: opmysql5
+      image: sha256:c6bf9129e93fa374456cf7d6a8dd013e1682d234fd7dffa9816d6949ab27dcee
+    - name: opmysql6
+      image:   opavlova/db-mysql:5.5
+
+#      CUSTOM repos
+    - name: o1
+      image: k8s.gcr.io/kubernetes-dashboard-amd64:v1.10.1
+    - name: o2
+      image: k8s.gcr.io/busybox
+    - name: o3
+      image: gcr.io/google-containers/nginx:1.7.9
+    - name: o4
+      image: gcr.io/google_containers/busybox
+    - name: o5
+      image: quay.io/pires/docker-elasticsearch-kubernetes:1.7.1-4
+    - name: o6
+      image: docker.io/istio/istio-ca:0.6.0
+    - name: o7
+      image: gcr.io/kubernetes-e2e-test-images/hostexec-amd64:1.0
+    - name: o8
+      image: quay.io/coreos/k8s-prometheus-adapter-amd64:v0.4.1
+    - name: o9
+      image: localhost:5000/user/container
+    - name: o10
+      image: registry:2
+    - name: o11
+      image:     docker.io/opavlova/gs-spring-boot:latest
+    - name: o12
+      image:     docker.io/istio/proxy:0.6.0
+    - name: o13
+      image:
+    - name: o14
+      image:
+    - name: o15
+      image:
+    - name: o16
+      image:
+    - name: o17
+      image:
+
+
+

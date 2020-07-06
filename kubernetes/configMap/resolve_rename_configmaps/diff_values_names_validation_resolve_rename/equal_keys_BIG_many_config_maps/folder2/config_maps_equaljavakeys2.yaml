@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: equaljavakeys
+data:
+  equaljavakeys.test.java: |-
+    @WebService
+    public interface CalculatorServer {
+    	@WebMethod
+    	int sum(int a, int b);
+
+    	@WebMethod(operationName = "diff")
+    	int diff(int a, int b);
+
+    	@WebMethod
+    	int multiply(int a, int b);
+
+    	@WebMethod
+    	int divide(int a, int b);
+    }

@@ -1,0 +1,8 @@
+
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: configmap1-cluster
+  namespace: default
+data:
+  example.property.1: hello1

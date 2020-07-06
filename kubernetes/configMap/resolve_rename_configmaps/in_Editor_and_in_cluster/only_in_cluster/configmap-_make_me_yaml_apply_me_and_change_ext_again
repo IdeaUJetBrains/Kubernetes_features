@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: configmapcluster2
+  namespace: default
+data:
+  example.property.1: hello1
+
+#  kubectl apply -f configmap-_make_me_yaml_apply_me_and_change_ext_again.yaml

@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  creationTimestamp: 2016-02-18T19:14:38Z
+  name: example-config-op
+  namespace: default
+data:
+  test.html: |-
+    <html lang="EN">
+       <head>
+           <title>Test1</title>
+           <script language="JavaScript">
+               function getfetch() {  return fetch("swagger_annot_res/myEntity1/");}
+           </script>
+       </head>
+       <body>
+       </body>
+       </html>
+

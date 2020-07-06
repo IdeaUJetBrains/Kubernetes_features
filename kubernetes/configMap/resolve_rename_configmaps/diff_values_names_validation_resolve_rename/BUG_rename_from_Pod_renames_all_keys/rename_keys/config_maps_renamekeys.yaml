@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: renamekeys
+data:
+  rename.example.property.1: hello1
+  rename.example.property.2: hello2
