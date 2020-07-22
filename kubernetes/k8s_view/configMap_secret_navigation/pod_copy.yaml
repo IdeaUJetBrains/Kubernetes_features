@@ -1,0 +1,54 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: opmysql-find-usages
+#  namespace: kube-public
+#  namespace: default
+  labels:
+    app: opmysql-find-usages
+spec:
+  containers:
+    - name: opmysql-find-usages
+      image: opavlova/db-mysql:5.6
+      imagePullPolicy: IfNotPresent
+      ports:
+        - containerPort: 3306
+      env:
+        - name: KEY_WO_NAMESPACE
+          valueFrom:
+            configMapKeyRef:
+              name: configmap-wo-namespace
+              key: key.env.1
+        - name: KEY_WITH_NAMESPACE1
+          valueFrom:
+            configMapKeyRef:
+              name: configmap-with-namespace1-kube-public
+              key: key.env.1
+        - name: KEY_WITH_NAMESPACE2
+          valueFrom:
+            configMapKeyRef:
+              name: configmap-with-namespace2-default
+              key: key.env.1
+  volumes:
+    - name: config-volume1
+      configMap:
+        # Provide the name of the ConfigMap containing the files you want
+        # to add to the container
+        name: configmap-wo-namespace
+        items:
+          - key: key.volume.2
+            path:
+    - name: config-volume2
+      configMap:
+         name: configmap-with-namespace1-kube-public
+        items:
+          - key: key.volume.2
+            path:
+    - name: config-volume3
+      configMap:
+        name: configmap-with-namespace2-default
+        items:
+          - key: key.volume.2
+            path:
+  restartPolicy: Always
+

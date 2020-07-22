@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: configmap-with-namespace2-default
+  namespace: default
+data:
+  key.env.1: key1_value_default_namespace
+  key.volume.2: key2_value_default_namespace
+
+#  kubectl apply -f configmap-_make_me_yaml_apply_me_and_change_ext_again.yaml
