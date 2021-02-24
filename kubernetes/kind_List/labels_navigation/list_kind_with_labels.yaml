@@ -1,0 +1,69 @@
+apiVersion: v1
+kind: List
+items:
+  - apiVersion: apps/v1
+    kind: Deployment
+    metadata:
+      name: Deployment_label_selectors_List1
+      labels:
+        lab: dep_label_list1
+    spec:
+      replicas: 1
+      template:
+        metadata:
+          name: Deployment_label_selectors_list1
+          labels:
+            lab: dep_label_list1
+        spec:
+          containers:
+            - name: dep_name_list1
+              image: tomcat
+              imagePullPolicy: IfNotPresent
+          restartPolicy: Always
+      selector:
+        matchLabels:
+          lab: dep_label_list1
+  - apiVersion: apps/v1
+    kind: Deployment
+    metadata:
+      name: Deployment_label_selectors_List2
+      labels:
+        lab: dep_label_list2
+    spec:
+      replicas: 1
+      template:
+        metadata:
+          name: Deployment_label_selectors_list2
+          labels:
+            lab: dep_label_list2
+        spec:
+          containers:
+            - name: dep_name_list2
+              image: tomcat
+              imagePullPolicy: IfNotPresent
+          restartPolicy: Always
+      selector:
+        matchLabels:
+          lab: dep_label_list2
+  - apiVersion: apps/v1
+    kind: Deployment
+    metadata:
+      name: Deployment_label_selectors_List3
+      labels:
+        lab: dep_label_list3
+    spec:
+      replicas: 1
+      template:
+        metadata:
+          name: Deployment_label_selectors_list3
+          labels:
+            lab: dep_label_list3
+        spec:
+          containers:
+            - name: dep_name_list3
+              image: tomcat
+              imagePullPolicy: IfNotPresent
+          restartPolicy: Always
+      selector:
+        matchLabels:
+          lab: dep_label_list3

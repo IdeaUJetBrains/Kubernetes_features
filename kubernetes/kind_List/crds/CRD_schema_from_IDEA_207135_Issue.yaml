@@ -1,0 +1,77 @@
+#We look at the "spec"   = keys "name", "group" and "versions"
+#apiVersion is combined from <group>/<version>
+apiVersion: apiextensions.k8s.io/v1beta1
+kind: CustomResourceDefinition
+metadata:
+  creationTimestamp: null
+  name: somethings.some.group
+spec:
+  group: some.group
+  names:
+    kind: Something
+    listKind: SomethingList
+    plural: somethings
+    singular: something
+  scope: Namespaced
+  subresources:
+    status: {}
+  validation:
+    openAPIV3Schema:
+      properties:
+        apiVersion:
+          type: string
+        kind:
+          type: string
+        metadata:
+          type: object
+          properties:
+            name:
+              type: string
+          required:
+            - name
+        spec:
+          properties:
+            somestring:
+              type: string
+          required:
+            - somestring
+          type: object
+        status1:
+          properties:
+            somebool:
+              type: boolean
+          required:
+            - somebool
+          type: object
+        status2:
+          properties:
+            somebool:
+              type: boolean
+          required:
+            - somebool
+          type: object
+        status3:
+          properties:
+            somebool:
+              type: boolean
+          required:
+            - somebool
+          type: object
+        status4:
+          properties:
+            somebool:
+              type: boolean
+          required:
+            - somebool
+          type: object
+        status5:
+          properties:
+            somebool:
+              type: boolean
+          required:
+            - somebool
+          type: object
+  versions:
+    - name: v1
+      served: true
+      storage: true

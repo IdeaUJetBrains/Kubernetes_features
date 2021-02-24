@@ -1,0 +1,26 @@
+apiVersion: v1
+kind: List
+items:
+  - apiVersion: some.group/v1
+    kind: Something
+    metadata:
+      name: test1
+    spec:
+      somestring: test1
+    status1:
+      somebool: false
+
+  - apiVersion: some.group/v1
+    kind: Something
+    metadata:
+      name: test2
+    spec:
+      somestring: test2
+    status1:
+      somebool: false
+    status2:
+      somebool: false
+    status3:
+      somebool: true
+    status4:
+      somebool: true
